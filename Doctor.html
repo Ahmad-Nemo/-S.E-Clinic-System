@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Patient's Report</title>
+  </head>
+
+  <style>
+
+    body {
+  background-color:lightblue ;
+}
+    .img-id {
+      position:relative;
+      left:18%;
+      width: 180px;
+      padding: 10px;
+      border: 5px solid gray;
+      margin: 0;
+      background-color: black;
+ border-radius: 50%;
+    }
+
+.button-insert-image{
+position:absolute;
+width:100px;
+left:35%;
+top:50%;
+  border-radius: 50%;
+  border:3px solid black;
+  background-color:orange;
+  overflow: hidden;
+
+}
+.button-insert-image:hover,input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover{
+  background-color: #4CAF50; /* Green */
+  color: white;
+
+}
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover{
+  background-color: Orange;
+  color: white;
+
+}
+
+    .Form-Report-Box {
+    position:absolute;
+    top:75px;
+    left:400px;
+    height:84%;
+          width: 70%;
+         padding: 10px;
+         border: 5px solid Black;
+         margin: 0;
+         background-color: Gray;
+    }
+
+    .patient-info-Box {
+    position:absolute;
+    top:75px;
+    left:5px;
+    height:auto;
+          width: 22%;
+         padding: 10px;
+         border: 5px solid Black;
+         margin: 0;
+         background-color: Gray;
+    }
+
+    .Form-Report-disease-Box {
+    position:relative;
+    height:45%;
+          width: 97%;
+         padding: 10px;
+         border: 5px solid Black;
+         margin: 0;
+         background-color: Gray;
+    }
+
+    .Form-Report-prescription-Box {
+    position:relative;
+    height:45%;
+          width: 70%;
+         padding: 10px;
+         border: 5px solid Black;
+         margin: 0;
+         background-color: Gray;
+    }
+
+    .Form-Report-Scan-Box {
+    position:absolute;
+    left:790px;
+    bottom:6px;
+    height:45.5%;
+          width: 24%;
+         padding: 10px;
+         border: 5px solid Black;
+         margin: 0;
+         background-color: Gray;
+    }
+
+    input[type=button], input[type=submit], input[type=reset] {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-decoration: none;
+      margin: 4px 2px;
+      cursor: pointer;
+
+    }
+
+    .Info-Box{
+      position: relative;
+ top: 1px;
+ height:320px;
+       width: 320px;
+      padding: 10px;
+      border: 5px solid Black;
+      margin: 0;
+      background-color: Gray;
+
+    }
+
+    textarea{
+      border: 4px solid Black;
+ border-radius: 4px;
+    }
+    </style>
+
+
+  <body>
+
+    <div class = "patient-info-Box">
+      <h1>Patient's Info:</h1>
+    <Image  class='img-id' src="img/img_avatar.png"  alt="Patient-image">
+        <hr style="border:8px solid Black;border-radius:5px">
+        <h4>Full Name : Ahmad Mostafa</h4>
+        <hr>
+        <h4>Age : 22</h4>
+        <hr>
+        <h4>Gender : Male</h4>
+</div>
+<div class = "Form-Report-Box">
+  <form>
+<div class="Form-Report-disease-Box">
+  <input style="position:absolute;right:150px;" type="reset" value="Reset">
+  <input style="position:absolute;right:40px;" type="submit" value = "submit">
+
+<h2>Patient's Disease:</h2>
+
+
+<textarea rows="11" cols="130">"Please Enter patient's disease"	</textarea>
+
+</div>
+
+  <div class="Form-Report-prescription-Box">
+    <h2>Patient's prescription:</h2>
+
+    <textarea rows="12" cols="100">"Please Enter patient's Prescription"	</textarea>
+
+    </div>
+
+    <div class="Form-Report-Scan-Box">
+
+
+<button class="button-insert-image" type="button" name="b2">Insert Scan Image</button>
+
+
+
+      </div>
+</div>
+</form>
+
+  </body>
+
+
+</html>
