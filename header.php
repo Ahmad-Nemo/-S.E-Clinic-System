@@ -18,9 +18,18 @@
 
     <!-- Theme Style -->
     <link rel="stylesheet" href="css/style.css">
+    
+    <style>
+      
+       .logo
+   {
+    width: 100px;
+    height: 100px; 
+   } 
+      </style>
   </head>
   <body>
-    
+   
     <header role="banner">
       <div class="top-bar">
         <div class="container">
@@ -34,12 +43,19 @@
             </div>
             <div class="col-md-6 col-sm-6 col-7 text-right">
               <p class="mb-0">
-                <a href="#" class="cta-btn" data-toggle="modal" data-target="#modalAppointment">Make an Appointment</a></p>
+                  <a class="btn btn-primary"  href="loginview.php" role="button"  aria-controls="collapseExample">
+   Sign In
+  </a>
+                   <a class="btn btn-primary" href="Registerview.php"  href="#collapseExample" role="button"  aria-controls="collapseExample">
+   Sign Up
+  </a>
+                <a href="resview.php" class="cta-btn" >Make an Appointment</a></p>
             </div>
           </div>
         </div>
       </div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <a class="navbar-brand" href="index.html"><img class="logo" src="img/logo2.jpeg" ></a>
         <div class="container">
           
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,35 +65,36 @@
           <div class="collapse navbar-collapse" id="navbarsExample05">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link active" href="index.html">Home</a>
+                <a class="nav-link" href="index.php">Home</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown04">
-                  
-                  <a class="dropdown-item" href="#">Departments</a>
-                  <a class="dropdown-item" href="services.html">Services</a>
-                </div>
-
+              <li class="nav-item ">
+                
+                  <a class="nav-link" href="services.php">Services</a>
+               
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="doctors.html" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Doctors</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown05">
-                  <a class="dropdown-item" href="doctors.html">Find Doctors</a>
-                  <a class="dropdown-item" href="#">Practitioner</a>
-                </div>
+              <li class="nav-item ">
+                
+                  <a class="nav-link" href="doctors.php">Doctors</a>
+               
+              </li>
+                <li class="nav-item ">
+                
+                  <a class="nav-link" href="help.php">Help</a>
+               
+              </li>
+                
+              <li class="nav-item">
+                <a class="nav-link" href="news.php">News</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="news.html">News</a>
+                <a class="nav-link" href="about.php">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="contact.php">Contact</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
+</body>
