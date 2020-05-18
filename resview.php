@@ -1,4 +1,16 @@
 <html>
+<?php include_once ("header.php");
+     include_once ("resModel.php");
+     include_once("rescontroler.php");
+     $model=new resModel();
+     $controller=new rescontroler($model);
+  
+
+     if (isset($_GET['action']) && !empty($_GET['action'])) {
+      $controller->{$_GET['action']}();
+    }
+
+    ?>
 <head>
 <title>Dr Hisham medical center</title>
     <meta charset="utf-8">
@@ -62,10 +74,7 @@
 }
 }
 </script>
-<?php include_once ("header.php");
-     include_once ("resModel.php");
 
-    ?>
 </head>
 
 
@@ -78,17 +87,17 @@
     
     <h1>Appointment</h1>
 
-<form name="myForm" action="#" onsubmit="return validateForm()" method="post">
+<form name="myForm" action="resview.php?action=insertresresrvation" onsubmit="return validateForm()" method="post">
             <br>
               <label for="company">Choose a Company:</label>
               <?php 
-     $s  = new resModel;
-    $resultSet= $s-> readCompany();
-
+    // $s  = new resModel;
+    //$resultSet= $s-> readCompany();
+    $controller->readCompany();
 ?>
 <select id="comps" name='comps' required>
 <?php
- while($row=$resultSet->fetch_assoc())
+ while($row=$model->getCompanyname()->fetch_assoc())
  {
     $Name =$row['Name'];
     echo "<option value='$Name'>$Name</option>";
@@ -127,15 +136,12 @@
                   
               <label for="cars">Choose a doctor:</label>
               <?php 
-  $e  = new resModel;
-  $resultSet= $e-> readDoctor();
+ $controller->readdoctor();
 //var_dump($resultSet);
 ?>
 <select id="cars" name='Doctors' required>
-
- 
 <?php
- while($row=$resultSet->fetch_assoc())
+ while($row=$model->getdoctor()->fetch_assoc())
  {
     $Name =$row['FirstName'];
     echo "<option value='$Name'>$Name</option>";
@@ -156,15 +162,7 @@
               </div>
             </form>
 
-<?php
-            if(isset($_POST['sub'])) 
- {  var_dump("if");
-    $e  = new resModel;
-    $human1 = date('Y/m/d', strtotime($_POST['appointment_date']));
-    $resultSet= $e->saveReservation($_POST['nam'] ,$_POST['name2'] ,$human1 ,$_POST['appointment_time'],$_POST['exampleFormControlInput1'] , $_POST['Doctors'] ,$_POST['mess'] , $_POST['comps'] );
- }
 
-?>
 
             </body>
  
