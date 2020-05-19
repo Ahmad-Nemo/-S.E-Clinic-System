@@ -16,19 +16,19 @@ class AddDoctorController extends Controller
    function insertuser()
    {
       
-      $firstname = $_POST["fname"];
+      $firstname = $_REQUEST["fname"];
         
-      $lastname = $_POST["lname"];
+      $lastname = $_REQUEST["lname"];
       
-      $email = $_POST["mail"];
+      $email = $_REQUEST["mail"];
       
-      $password = $_POST["password"];
+      $password = $_REQUEST["password"];
       
-      $phoneno = $_POST["phone"];
+      $phoneno = $_REQUEST["phone"];
       
-      $DOB = $_POST["date"];
+      $DOB = $_REQUEST["date"];
       
-      $gender=$_POST["gender"];
+      $gender=$_REQUEST["gender"];
 
       $this->model->saveReservation( $firstname,$lastname, $email,$password,$phoneno,$DOB,$gender);
    }
