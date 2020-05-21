@@ -1,0 +1,189 @@
+[21-May-2020 02:30:21 Europe/Berlin] PHP Notice:  session_start(): A session had already been started - ignoring in C:\xampp\htdocs\project mvc\app\model\model.php on line 2
+[21-May-2020 02:33:44 Europe/Berlin] PHP Notice:  session_start(): A session had already been started - ignoring in C:\xampp\htdocs\project mvc\app\model\model.php on line 2
+[21-May-2020 02:33:55 Europe/Berlin] PHP Notice:  session_start(): A session had already been started - ignoring in C:\xampp\htdocs\project mvc\app\model\model.php on line 2
+[21-May-2020 02:33:57 Europe/Berlin] PHP Notice:  session_start(): A session had already been started - ignoring in C:\xampp\htdocs\project mvc\app\model\model.php on line 2
+[21-May-2020 02:39:20 Europe/Berlin] PHP Notice:  session_start(): A session had already been started - ignoring in C:\xampp\htdocs\project mvc\app\model\model.php on line 2
+[21-May-2020 02:39:31 Europe/Berlin] PHP Notice:  session_start(): A session had already been started - ignoring in C:\xampp\htdocs\project mvc\app\model\model.php on line 2
+[21-May-2020 02:39:57 Europe/Berlin] PHP Notice:  session_start(): A session had already been started - ignoring in C:\xampp\htdocs\project mvc\app\model\model.php on line 2
+[21-May-2020 02:40:04 Europe/Berlin] PHP Notice:  session_start(): A session had already been started - ignoring in C:\xampp\htdocs\project mvc\app\model\model.php on line 2
+[21-May-2020 02:40:15 Europe/Berlin] PHP Notice:  session_start(): A session had already been started - ignoring in C:\xampp\htdocs\project mvc\app\model\model.php on line 2
+[21-May-2020 02:45:47 Europe/Berlin] PHP Notice:  session_start(): A session had already been started - ignoring in C:\xampp\htdocs\project mvc\app\model\model.php on line 2
+[21-May-2020 03:17:48 Europe/Berlin] PHP Notice:  Undefined variable: view in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 83
+[21-May-2020 03:17:48 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 83
+[21-May-2020 03:17:48 Europe/Berlin] PHP Notice:  Trying to get property '' of non-object in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 83
+[21-May-2020 03:18:03 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 83
+[21-May-2020 03:18:35 Europe/Berlin] PHP Notice:  Undefined variable: Npcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 60
+[21-May-2020 03:18:35 Europe/Berlin] PHP Notice:  Undefined variable: Spcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 61
+[21-May-2020 03:18:35 Europe/Berlin] PHP Notice:  Undefined variable: Ccount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 62
+[21-May-2020 03:18:35 Europe/Berlin] PHP Notice:  Undefined variable: Dcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 63
+[21-May-2020 03:19:08 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 83
+[21-May-2020 03:19:38 Europe/Berlin] PHP Notice:  Undefined variable: Npcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 60
+[21-May-2020 03:19:38 Europe/Berlin] PHP Notice:  Undefined variable: Spcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 61
+[21-May-2020 03:19:38 Europe/Berlin] PHP Notice:  Undefined variable: Ccount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 62
+[21-May-2020 03:19:38 Europe/Berlin] PHP Notice:  Undefined variable: Dcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 63
+[21-May-2020 03:20:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function Stat_View() in C:\xampp\htdocs\project mvc\app\model\StatModel.php:60
+Stack trace:
+#0 C:\xampp\htdocs\project mvc\public\Stats.php(15): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 60
+[21-May-2020 03:20:36 Europe/Berlin] PHP Notice:  Undefined variable: Npcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 60
+[21-May-2020 03:20:36 Europe/Berlin] PHP Notice:  Undefined variable: Spcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 61
+[21-May-2020 03:20:36 Europe/Berlin] PHP Notice:  Undefined variable: Ccount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 62
+[21-May-2020 03:20:36 Europe/Berlin] PHP Notice:  Undefined variable: Dcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 63
+[21-May-2020 03:21:36 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 83
+[21-May-2020 03:23:44 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 84
+[21-May-2020 03:24:41 Europe/Berlin] PHP Notice:  Undefined variable: Npcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 60
+[21-May-2020 03:24:41 Europe/Berlin] PHP Notice:  Undefined variable: Spcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 61
+[21-May-2020 03:24:41 Europe/Berlin] PHP Notice:  Undefined variable: Ccount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 62
+[21-May-2020 03:24:41 Europe/Berlin] PHP Notice:  Undefined variable: Dcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 63
+[21-May-2020 03:26:06 Europe/Berlin] PHP Notice:  Undefined variable: Npcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 60
+[21-May-2020 03:26:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function Stat_View() on null in C:\xampp\htdocs\project mvc\app\model\StatModel.php:60
+Stack trace:
+#0 C:\xampp\htdocs\project mvc\public\Stats.php(15): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 60
+[21-May-2020 03:26:08 Europe/Berlin] PHP Notice:  Undefined variable: Npcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 60
+[21-May-2020 03:26:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function Stat_View() on null in C:\xampp\htdocs\project mvc\app\model\StatModel.php:60
+Stack trace:
+#0 C:\xampp\htdocs\project mvc\public\Stats.php(15): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 60
+[21-May-2020 03:26:10 Europe/Berlin] PHP Notice:  Undefined variable: Npcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 60
+[21-May-2020 03:26:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function Stat_View() on null in C:\xampp\htdocs\project mvc\app\model\StatModel.php:60
+Stack trace:
+#0 C:\xampp\htdocs\project mvc\public\Stats.php(15): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 60
+[21-May-2020 03:26:11 Europe/Berlin] PHP Notice:  Undefined variable: Npcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 60
+[21-May-2020 03:26:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function Stat_View() on null in C:\xampp\htdocs\project mvc\app\model\StatModel.php:60
+Stack trace:
+#0 C:\xampp\htdocs\project mvc\public\Stats.php(15): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 60
+[21-May-2020 03:29:20 Europe/Berlin] PHP Notice:  Undefined variable: Npcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 60
+[21-May-2020 03:29:20 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function Stat_View() on null in C:\xampp\htdocs\project mvc\app\model\StatModel.php:60
+Stack trace:
+#0 C:\xampp\htdocs\project mvc\public\Stats.php(15): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 60
+[21-May-2020 03:29:22 Europe/Berlin] PHP Notice:  Undefined variable: Npcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 60
+[21-May-2020 03:29:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function Stat_View() on null in C:\xampp\htdocs\project mvc\app\model\StatModel.php:60
+Stack trace:
+#0 C:\xampp\htdocs\project mvc\public\Stats.php(15): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 60
+[21-May-2020 03:29:38 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 87
+[21-May-2020 03:29:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function Stat_View() on null in C:\xampp\htdocs\project mvc\app\model\StatModel.php:87
+Stack trace:
+#0 C:\xampp\htdocs\project mvc\public\Stats.php(15): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 87
+[21-May-2020 03:29:45 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 86
+[21-May-2020 03:29:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function Stat_View() on null in C:\xampp\htdocs\project mvc\app\model\StatModel.php:86
+Stack trace:
+#0 C:\xampp\htdocs\project mvc\public\Stats.php(15): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 86
+[21-May-2020 03:29:57 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 86
+[21-May-2020 03:30:15 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 83
+[21-May-2020 03:30:48 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 85
+[21-May-2020 03:31:09 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 85
+[21-May-2020 03:32:27 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 90
+[21-May-2020 03:32:27 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 90
+[21-May-2020 03:33:09 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 90
+[21-May-2020 03:53:59 Europe/Berlin] PHP Warning:  Use of undefined constant __ROOT__ - assumed '__ROOT__' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 17
+[21-May-2020 03:53:59 Europe/Berlin] PHP Warning:  require_once(__ROOT__model/model.php): failed to open stream: No such file or directory in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 17
+[21-May-2020 03:53:59 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '__ROOT__model/model.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 17
+[21-May-2020 03:54:56 Europe/Berlin] PHP Warning:  Use of undefined constant __ROOT__ - assumed '__ROOT__' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 17
+[21-May-2020 03:54:56 Europe/Berlin] PHP Warning:  require_once(__ROOT__model/model.php): failed to open stream: No such file or directory in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 17
+[21-May-2020 03:54:56 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '__ROOT__model/model.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 17
+[21-May-2020 03:55:08 Europe/Berlin] PHP Warning:  Use of undefined constant __ROOT__ - assumed '__ROOT__' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 17
+[21-May-2020 03:55:08 Europe/Berlin] PHP Warning:  require_once(__ROOT__model/model.php): failed to open stream: No such file or directory in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 17
+[21-May-2020 03:55:08 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '__ROOT__model/model.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 17
+[21-May-2020 03:55:08 Europe/Berlin] PHP Warning:  Use of undefined constant __ROOT__ - assumed '__ROOT__' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 17
+[21-May-2020 03:55:08 Europe/Berlin] PHP Warning:  require_once(__ROOT__model/model.php): failed to open stream: No such file or directory in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 17
+[21-May-2020 03:55:08 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '__ROOT__model/model.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 17
+[21-May-2020 03:55:16 Europe/Berlin] PHP Warning:  Use of undefined constant __ROOT__ - assumed '__ROOT__' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 17
+[21-May-2020 03:55:16 Europe/Berlin] PHP Warning:  require_once(__ROOT__model/model.php): failed to open stream: No such file or directory in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 17
+[21-May-2020 03:55:16 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required '__ROOT__model/model.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 17
+[21-May-2020 03:56:31 Europe/Berlin] PHP Notice:  Undefined variable: Npcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 62
+[21-May-2020 03:56:31 Europe/Berlin] PHP Notice:  Undefined variable: Spcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 63
+[21-May-2020 03:56:31 Europe/Berlin] PHP Notice:  Undefined variable: Ccount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 64
+[21-May-2020 03:56:31 Europe/Berlin] PHP Notice:  Undefined variable: Dcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 65
+[21-May-2020 03:56:55 Europe/Berlin] PHP Notice:  Undefined variable: Spcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 63
+[21-May-2020 03:56:55 Europe/Berlin] PHP Notice:  Undefined variable: Ccount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 64
+[21-May-2020 03:56:55 Europe/Berlin] PHP Notice:  Undefined variable: Dcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 65
+[21-May-2020 03:57:11 Europe/Berlin] PHP Notice:  Undefined variable: Spcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 63
+[21-May-2020 03:57:11 Europe/Berlin] PHP Notice:  Undefined variable: Ccount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 64
+[21-May-2020 03:57:11 Europe/Berlin] PHP Notice:  Undefined variable: Dcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 65
+[21-May-2020 03:57:18 Europe/Berlin] PHP Notice:  Undefined variable: Npcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 61
+[21-May-2020 03:57:18 Europe/Berlin] PHP Notice:  Undefined variable: Spcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 62
+[21-May-2020 03:57:18 Europe/Berlin] PHP Notice:  Undefined variable: Ccount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 63
+[21-May-2020 03:57:18 Europe/Berlin] PHP Notice:  Undefined variable: Dcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 64
+[21-May-2020 03:57:29 Europe/Berlin] PHP Notice:  Undefined variable: row in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 55
+[21-May-2020 03:57:29 Europe/Berlin] PHP Notice:  Undefined variable: row in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 56
+[21-May-2020 03:57:29 Europe/Berlin] PHP Notice:  Undefined variable: row in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 57
+[21-May-2020 03:57:29 Europe/Berlin] PHP Notice:  Undefined variable: row in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 58
+[21-May-2020 03:57:39 Europe/Berlin] PHP Notice:  Undefined variable: Npcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 61
+[21-May-2020 03:57:39 Europe/Berlin] PHP Notice:  Undefined variable: Spcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 62
+[21-May-2020 03:57:39 Europe/Berlin] PHP Notice:  Undefined variable: Ccount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 63
+[21-May-2020 03:57:39 Europe/Berlin] PHP Notice:  Undefined variable: Dcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 64
+[21-May-2020 03:58:07 Europe/Berlin] PHP Notice:  Undefined variable: Npcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 61
+[21-May-2020 03:58:07 Europe/Berlin] PHP Notice:  Undefined variable: Spcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 62
+[21-May-2020 03:58:07 Europe/Berlin] PHP Notice:  Undefined variable: Ccount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 63
+[21-May-2020 03:58:07 Europe/Berlin] PHP Notice:  Undefined variable: Dcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 64
+[21-May-2020 03:58:22 Europe/Berlin] PHP Notice:  Undefined variable: Npcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 61
+[21-May-2020 03:58:22 Europe/Berlin] PHP Notice:  Undefined variable: Spcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 62
+[21-May-2020 03:58:22 Europe/Berlin] PHP Notice:  Undefined variable: Ccount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 63
+[21-May-2020 03:58:22 Europe/Berlin] PHP Notice:  Undefined variable: Dcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 64
+[21-May-2020 04:00:48 Europe/Berlin] PHP Notice:  Undefined variable: Npcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 61
+[21-May-2020 04:00:48 Europe/Berlin] PHP Notice:  Undefined variable: Spcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 62
+[21-May-2020 04:00:48 Europe/Berlin] PHP Notice:  Undefined variable: Ccount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 63
+[21-May-2020 04:00:48 Europe/Berlin] PHP Notice:  Undefined variable: Dcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 64
+[21-May-2020 04:02:38 Europe/Berlin] PHP Notice:  Undefined variable: Npcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 61
+[21-May-2020 04:02:38 Europe/Berlin] PHP Notice:  Undefined variable: Spcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 62
+[21-May-2020 04:02:38 Europe/Berlin] PHP Notice:  Undefined variable: Ccount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 63
+[21-May-2020 04:02:38 Europe/Berlin] PHP Notice:  Undefined variable: Dcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 64
+[21-May-2020 04:02:38 Europe/Berlin] PHP Notice:  Undefined variable: Npcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 61
+[21-May-2020 04:02:38 Europe/Berlin] PHP Notice:  Undefined variable: Spcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 62
+[21-May-2020 04:02:38 Europe/Berlin] PHP Notice:  Undefined variable: Ccount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 63
+[21-May-2020 04:02:38 Europe/Berlin] PHP Notice:  Undefined variable: Dcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 64
+[21-May-2020 04:04:25 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 65
+[21-May-2020 04:20:23 Europe/Berlin] PHP Notice:  Undefined variable: Npcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 83
+[21-May-2020 04:20:23 Europe/Berlin] PHP Notice:  Undefined variable: Spcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 84
+[21-May-2020 04:20:23 Europe/Berlin] PHP Notice:  Undefined variable: Ccount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 85
+[21-May-2020 04:20:23 Europe/Berlin] PHP Notice:  Undefined variable: Dcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 86
+[21-May-2020 04:21:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function GetArray() in C:\xampp\htdocs\project mvc\app\model\StatModel.php:83
+Stack trace:
+#0 C:\xampp\htdocs\project mvc\public\Stats.php(15): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 83
+[21-May-2020 04:21:20 Europe/Berlin] PHP Notice:  Undefined variable: Npcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 85
+[21-May-2020 04:21:20 Europe/Berlin] PHP Notice:  Undefined variable: Spcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 86
+[21-May-2020 04:21:20 Europe/Berlin] PHP Notice:  Undefined variable: Ccount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 87
+[21-May-2020 04:21:20 Europe/Berlin] PHP Notice:  Undefined variable: Dcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 88
+[21-May-2020 04:23:25 Europe/Berlin] PHP Notice:  Undefined variable: Npcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 86
+[21-May-2020 04:23:25 Europe/Berlin] PHP Notice:  Undefined variable: Spcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 87
+[21-May-2020 04:23:25 Europe/Berlin] PHP Notice:  Undefined variable: Ccount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 88
+[21-May-2020 04:23:25 Europe/Berlin] PHP Notice:  Undefined variable: Dcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 89
+[21-May-2020 04:30:31 Europe/Berlin] PHP Notice:  Undefined variable: Npcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 82
+[21-May-2020 04:30:31 Europe/Berlin] PHP Notice:  Undefined variable: Spcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 83
+[21-May-2020 04:30:31 Europe/Berlin] PHP Notice:  Undefined variable: Ccount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 84
+[21-May-2020 04:30:31 Europe/Berlin] PHP Notice:  Undefined variable: Dcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 85
+[21-May-2020 04:30:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function var_dumb() in C:\xampp\htdocs\project mvc\app\model\StatModel.php:88
+Stack trace:
+#0 C:\xampp\htdocs\project mvc\public\Stats.php(15): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 88
+[21-May-2020 04:30:33 Europe/Berlin] PHP Notice:  Undefined variable: Npcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 82
+[21-May-2020 04:30:33 Europe/Berlin] PHP Notice:  Undefined variable: Spcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 83
+[21-May-2020 04:30:33 Europe/Berlin] PHP Notice:  Undefined variable: Ccount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 84
+[21-May-2020 04:30:33 Europe/Berlin] PHP Notice:  Undefined variable: Dcount in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 85
+[21-May-2020 04:30:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function var_dumb() in C:\xampp\htdocs\project mvc\app\model\StatModel.php:88
+Stack trace:
+#0 C:\xampp\htdocs\project mvc\public\Stats.php(15): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 88
+[21-May-2020 04:33:19 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 87
+[21-May-2020 04:33:38 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 87
+[21-May-2020 04:33:46 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 87

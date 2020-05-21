@@ -1,0 +1,53 @@
+[21-May-2020 01:32:26 Europe/Berlin] PHP Warning:  include(../Project 6/Medicalcare center/Admin.php): failed to open stream: No such file or directory in C:\xampp\htdocs\project mvc\public\Company.php on line 87
+[21-May-2020 01:32:26 Europe/Berlin] PHP Warning:  include(): Failed opening '../Project 6/Medicalcare center/Admin.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\project mvc\public\Company.php on line 87
+[21-May-2020 02:29:42 Europe/Berlin] PHP Warning:  include_once(headeradmin.php): failed to open stream: No such file or directory in C:\xampp\htdocs\project mvc\public\Company.php on line 87
+[21-May-2020 02:29:42 Europe/Berlin] PHP Warning:  include_once(): Failed opening 'headeradmin.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\project mvc\public\Company.php on line 87
+[21-May-2020 02:30:21 Europe/Berlin] PHP Warning:  include_once(headeradmin.php): failed to open stream: No such file or directory in C:\xampp\htdocs\project mvc\public\Company.php on line 88
+[21-May-2020 02:30:21 Europe/Berlin] PHP Warning:  include_once(): Failed opening 'headeradmin.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\project mvc\public\Company.php on line 88
+[21-May-2020 02:33:44 Europe/Berlin] PHP Warning:  include_once(headeradmin.php): failed to open stream: No such file or directory in C:\xampp\htdocs\project mvc\public\Company.php on line 91
+[21-May-2020 02:33:44 Europe/Berlin] PHP Warning:  include_once(): Failed opening 'headeradmin.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\project mvc\public\Company.php on line 91
+[21-May-2020 02:33:55 Europe/Berlin] PHP Warning:  include_once(headeradmin.php): failed to open stream: No such file or directory in C:\xampp\htdocs\project mvc\public\Company.php on line 91
+[21-May-2020 02:33:55 Europe/Berlin] PHP Warning:  include_once(): Failed opening 'headeradmin.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\project mvc\public\Company.php on line 91
+[21-May-2020 02:33:57 Europe/Berlin] PHP Warning:  include_once(headeradmin.php): failed to open stream: No such file or directory in C:\xampp\htdocs\project mvc\public\Company.php on line 91
+[21-May-2020 02:33:57 Europe/Berlin] PHP Warning:  include_once(): Failed opening 'headeradmin.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\project mvc\public\Company.php on line 91
+[21-May-2020 02:39:20 Europe/Berlin] PHP Warning:  include_once(headeradmin.php): failed to open stream: No such file or directory in C:\xampp\htdocs\project mvc\public\Company.php on line 91
+[21-May-2020 02:39:20 Europe/Berlin] PHP Warning:  include_once(): Failed opening 'headeradmin.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\project mvc\public\Company.php on line 91
+[21-May-2020 02:39:31 Europe/Berlin] PHP Warning:  include_once(headeradmin.php): failed to open stream: No such file or directory in C:\xampp\htdocs\project mvc\public\Company.php on line 91
+[21-May-2020 02:39:31 Europe/Berlin] PHP Warning:  include_once(): Failed opening 'headeradmin.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\project mvc\public\Company.php on line 91
+[21-May-2020 02:39:57 Europe/Berlin] PHP Warning:  include_once(headeradmin.php): failed to open stream: No such file or directory in C:\xampp\htdocs\project mvc\public\Company.php on line 91
+[21-May-2020 02:39:57 Europe/Berlin] PHP Warning:  include_once(): Failed opening 'headeradmin.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\project mvc\public\Company.php on line 91
+[21-May-2020 02:40:04 Europe/Berlin] PHP Warning:  include_once(headeradmin.php): failed to open stream: No such file or directory in C:\xampp\htdocs\project mvc\public\Company.php on line 91
+[21-May-2020 02:40:04 Europe/Berlin] PHP Warning:  include_once(): Failed opening 'headeradmin.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\project mvc\public\Company.php on line 91
+[21-May-2020 02:40:15 Europe/Berlin] PHP Warning:  include_once(headeradmin.php): failed to open stream: No such file or directory in C:\xampp\htdocs\project mvc\public\Company.php on line 91
+[21-May-2020 02:40:15 Europe/Berlin] PHP Warning:  include_once(): Failed opening 'headeradmin.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\project mvc\public\Company.php on line 91
+[21-May-2020 02:45:47 Europe/Berlin] PHP Warning:  include_once(headeradmin.php): failed to open stream: No such file or directory in C:\xampp\htdocs\project mvc\public\Company.php on line 91
+[21-May-2020 02:45:47 Europe/Berlin] PHP Warning:  include_once(): Failed opening 'headeradmin.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\project mvc\public\Company.php on line 91
+[21-May-2020 03:18:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 50
+[21-May-2020 03:19:20 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$dataPoints' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST) in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 51
+[21-May-2020 03:20:06 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$Npcount' (T_VARIABLE), expecting ')' in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 60
+[21-May-2020 03:20:12 Europe/Berlin] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')' in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 60
+[21-May-2020 03:21:49 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 50
+[21-May-2020 03:22:00 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 50
+[21-May-2020 03:22:06 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 50
+[21-May-2020 03:23:15 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 50
+[21-May-2020 03:23:24 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 63
+[21-May-2020 03:23:39 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<' in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 60
+[21-May-2020 03:24:17 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 38
+[21-May-2020 03:34:35 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 15
+[21-May-2020 03:34:40 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 15
+[21-May-2020 03:34:42 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 15
+[21-May-2020 03:34:52 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 15
+[21-May-2020 03:34:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 15
+[21-May-2020 03:55:49 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 52
+[21-May-2020 04:02:52 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}' in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 63
+[21-May-2020 04:04:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 63
+[21-May-2020 04:23:17 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'global' (T_GLOBAL), expecting function (T_FUNCTION) or const (T_CONST) in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 24
+[21-May-2020 04:27:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE), expecting ',' or ';' in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 26
+[21-May-2020 04:27:02 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE), expecting ',' or ';' in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 26
+[21-May-2020 04:28:25 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'global' (T_GLOBAL), expecting function (T_FUNCTION) or const (T_CONST) in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 24
+[21-May-2020 04:28:28 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'globals' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 24
+[21-May-2020 04:28:33 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$dataPoints' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST) in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 24
+[21-May-2020 04:28:34 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$dataPoints' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST) in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 24
+[21-May-2020 04:30:24 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$dataPoints' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST) in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 77
+[21-May-2020 04:33:14 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$DP' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST) in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 84
+[21-May-2020 04:43:50 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 53

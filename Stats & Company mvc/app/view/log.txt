@@ -1,0 +1,299 @@
+[21-May-2020 01:29:31 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 71
+[21-May-2020 01:29:42 Europe/Berlin] PHP Warning:  include(../Project 6/Medicalcare center/Admin.php): failed to open stream: No such file or directory in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 21
+[21-May-2020 01:29:42 Europe/Berlin] PHP Warning:  include(): Failed opening '../Project 6/Medicalcare center/Admin.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 21
+[21-May-2020 01:29:42 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 23
+[21-May-2020 01:29:42 Europe/Berlin] PHP Notice:  Undefined variable: conn in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 24
+[21-May-2020 01:29:42 Europe/Berlin] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 24
+[21-May-2020 01:29:50 Europe/Berlin] PHP Warning:  include(../Project 6/Medicalcare center/Admin.php): failed to open stream: No such file or directory in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 21
+[21-May-2020 01:29:50 Europe/Berlin] PHP Warning:  include(): Failed opening '../Project 6/Medicalcare center/Admin.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 21
+[21-May-2020 01:29:50 Europe/Berlin] PHP Notice:  Undefined variable: conn in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 24
+[21-May-2020 01:29:50 Europe/Berlin] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 24
+[21-May-2020 01:29:50 Europe/Berlin] PHP Notice:  Undefined variable: conn in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 44
+[21-May-2020 01:29:50 Europe/Berlin] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 44
+[21-May-2020 01:30:29 Europe/Berlin] PHP Warning:  include(../Project 6/Medicalcare center/Admin.php): failed to open stream: No such file or directory in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 24
+[21-May-2020 01:30:29 Europe/Berlin] PHP Warning:  include(): Failed opening '../Project 6/Medicalcare center/Admin.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 24
+[21-May-2020 01:30:29 Europe/Berlin] PHP Notice:  Undefined index: id in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 32
+[21-May-2020 01:30:29 Europe/Berlin] PHP Warning:  include(../Project 6/Medicalcare center/Admin.php): failed to open stream: No such file or directory in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 24
+[21-May-2020 01:30:29 Europe/Berlin] PHP Warning:  include(): Failed opening '../Project 6/Medicalcare center/Admin.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 24
+[21-May-2020 01:30:29 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 26
+[21-May-2020 01:30:40 Europe/Berlin] PHP Warning:  include(../Project 6/Medicalcare center/Admin.php): failed to open stream: No such file or directory in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 24
+[21-May-2020 01:30:40 Europe/Berlin] PHP Warning:  include(): Failed opening '../Project 6/Medicalcare center/Admin.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 24
+[21-May-2020 01:30:40 Europe/Berlin] PHP Notice:  Undefined index: id in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 32
+[21-May-2020 01:30:40 Europe/Berlin] PHP Warning:  include(../Project 6/Medicalcare center/Admin.php): failed to open stream: No such file or directory in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 24
+[21-May-2020 01:30:40 Europe/Berlin] PHP Warning:  include(): Failed opening '../Project 6/Medicalcare center/Admin.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 24
+[21-May-2020 01:30:40 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 26
+[21-May-2020 01:32:27 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 23
+[21-May-2020 01:32:42 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 23
+[21-May-2020 01:32:47 Europe/Berlin] PHP Notice:  Undefined index: Name in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 73
+[21-May-2020 01:32:47 Europe/Berlin] PHP Notice:  Undefined index: Receit_Value in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 74
+[21-May-2020 01:32:47 Europe/Berlin] PHP Notice:  Undefined index: EmpCount in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 75
+[21-May-2020 01:32:47 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 23
+[21-May-2020 01:32:51 Europe/Berlin] PHP Notice:  Undefined index: id in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 29
+[21-May-2020 01:32:51 Europe/Berlin] PHP Notice:  Undefined index: Name in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 73
+[21-May-2020 01:32:51 Europe/Berlin] PHP Notice:  Undefined index: Receit_Value in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 74
+[21-May-2020 01:32:51 Europe/Berlin] PHP Notice:  Undefined index: EmpCount in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 75
+[21-May-2020 01:32:51 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 23
+[21-May-2020 01:33:04 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 23
+[21-May-2020 01:33:04 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 89
+[21-May-2020 01:33:04 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 95
+[21-May-2020 01:33:04 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 23
+[21-May-2020 01:33:13 Europe/Berlin] PHP Notice:  Undefined index: id in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 29
+[21-May-2020 01:33:13 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 23
+[21-May-2020 02:06:24 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 23
+[21-May-2020 02:16:19 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 23
+[21-May-2020 02:16:52 Europe/Berlin] PHP Notice:  Undefined index: id in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 29
+[21-May-2020 02:16:52 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 23
+[21-May-2020 02:17:23 Europe/Berlin] PHP Notice:  Undefined index: id in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 29
+[21-May-2020 02:17:23 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 23
+[21-May-2020 02:18:23 Europe/Berlin] PHP Notice:  Undefined index: id in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 29
+[21-May-2020 02:18:23 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 23
+[21-May-2020 02:20:21 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 23
+[21-May-2020 02:23:17 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 23
+[21-May-2020 02:24:48 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 23
+[21-May-2020 02:25:02 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 23
+[21-May-2020 02:27:10 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 23
+[21-May-2020 02:29:42 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 23
+[21-May-2020 02:30:21 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 23
+[21-May-2020 02:33:44 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 23
+[21-May-2020 02:33:55 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 23
+[21-May-2020 02:33:57 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 23
+[21-May-2020 02:39:20 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 23
+[21-May-2020 02:39:31 Europe/Berlin] PHP Notice:  Undefined index: id in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 29
+[21-May-2020 02:39:31 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\project mvc\public\Admin.php:78) in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 54
+[21-May-2020 02:39:57 Europe/Berlin] PHP Notice:  Undefined index: id in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 29
+[21-May-2020 02:39:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\project mvc\public\Admin.php:78) in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 54
+[21-May-2020 02:40:04 Europe/Berlin] PHP Notice:  Undefined index: id in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 29
+[21-May-2020 02:40:04 Europe/Berlin] PHP Notice:  Undefined index: Name in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 73
+[21-May-2020 02:40:04 Europe/Berlin] PHP Notice:  Undefined index: Receit_Value in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 74
+[21-May-2020 02:40:04 Europe/Berlin] PHP Notice:  Undefined index: EmpCount in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 75
+[21-May-2020 02:40:04 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\project mvc\public\Admin.php:78) in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 77
+[21-May-2020 02:40:15 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 23
+[21-May-2020 02:40:15 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 89
+[21-May-2020 02:40:15 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 95
+[21-May-2020 02:40:15 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\project mvc\public\Admin.php:78) in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 100
+[21-May-2020 02:45:47 Europe/Berlin] PHP Notice:  Undefined index: ID in C:\xampp\htdocs\project mvc\app\model\CompanyModel.php on line 23
+[21-May-2020 02:45:53 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 71
+[21-May-2020 02:47:14 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 71
+[21-May-2020 02:57:35 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 71
+[21-May-2020 02:57:41 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 71
+[21-May-2020 02:57:44 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 71
+[21-May-2020 02:57:46 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 71
+[21-May-2020 02:57:52 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 71
+[21-May-2020 03:03:04 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 71
+[21-May-2020 03:03:36 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 71
+[21-May-2020 03:04:23 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 71
+[21-May-2020 03:05:35 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 71
+[21-May-2020 03:14:33 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 71
+[21-May-2020 03:14:47 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 71
+[21-May-2020 03:15:32 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 71
+[21-May-2020 03:15:37 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 71
+[21-May-2020 03:15:44 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 71
+[21-May-2020 03:16:31 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 71
+[21-May-2020 03:16:31 Europe/Berlin] PHP Notice:  Undefined property: StatView::$ in C:\xampp\htdocs\project mvc\public\Stats.php on line 71
+[21-May-2020 03:29:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function Stat_View() on string in C:\xampp\htdocs\project mvc\app\model\StatModel.php:52
+Stack trace:
+#0 C:\xampp\htdocs\project mvc\app\controller\StatController.php(19): StatModel->Stat_View()
+#1 C:\xampp\htdocs\project mvc\app\view\StatView.php(20): StatController->insert()
+#2 C:\xampp\htdocs\project mvc\public\Stats.php(24): StatView->output()
+#3 {main}
+  thrown in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 52
+[21-May-2020 03:33:09 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 03:33:30 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 03:42:16 Europe/Berlin] PHP Notice:  Undefined variable: var_dump in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 62
+[21-May-2020 03:42:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Function name must be a string in C:\xampp\htdocs\project mvc\app\model\StatModel.php:62
+Stack trace:
+#0 C:\xampp\htdocs\project mvc\app\controller\StatController.php(19): StatModel->Stat_View()
+#1 C:\xampp\htdocs\project mvc\app\view\StatView.php(20): StatController->insert()
+#2 C:\xampp\htdocs\project mvc\public\Stats.php(24): StatView->output()
+#3 {main}
+  thrown in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 62
+[21-May-2020 03:42:17 Europe/Berlin] PHP Notice:  Undefined variable: var_dump in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 62
+[21-May-2020 03:42:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Function name must be a string in C:\xampp\htdocs\project mvc\app\model\StatModel.php:62
+Stack trace:
+#0 C:\xampp\htdocs\project mvc\app\controller\StatController.php(19): StatModel->Stat_View()
+#1 C:\xampp\htdocs\project mvc\app\view\StatView.php(20): StatController->insert()
+#2 C:\xampp\htdocs\project mvc\public\Stats.php(24): StatView->output()
+#3 {main}
+  thrown in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 62
+[21-May-2020 03:42:27 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 03:42:57 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 03:43:44 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 03:45:40 Europe/Berlin] PHP Warning:  Use of undefined constant dataPoints - assumed 'dataPoints' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 03:45:40 Europe/Berlin] PHP Warning:  Use of undefined constant dataPoints - assumed 'dataPoints' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 03:47:48 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 03:47:48 Europe/Berlin] PHP Recoverable fatal error:  Object of class StatModel could not be converted to string in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 03:47:58 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 03:47:58 Europe/Berlin] PHP Recoverable fatal error:  Object of class StatModel could not be converted to string in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 03:48:08 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 03:49:34 Europe/Berlin] PHP Notice:  Undefined variable: DataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 03:49:34 Europe/Berlin] PHP Notice:  Undefined variable: DataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 03:53:07 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 03:55:21 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 03:56:01 Europe/Berlin] PHP Notice:  Undefined variable: Npcout in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 53
+[21-May-2020 03:56:01 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 03:56:13 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:03:17 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:03:39 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:03:48 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:03:48 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 75
+[21-May-2020 04:04:09 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:04:09 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 84
+[21-May-2020 04:04:11 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:04:11 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 84
+[21-May-2020 04:04:11 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:04:11 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 84
+[21-May-2020 04:04:11 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:04:11 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 84
+[21-May-2020 04:04:12 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:04:12 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 84
+[21-May-2020 04:04:13 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:04:13 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 84
+[21-May-2020 04:04:13 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:04:13 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 84
+[21-May-2020 04:04:25 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:04:41 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:14:36 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:14:36 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:14:45 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:16:04 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:16:04 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:17:03 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 23
+[21-May-2020 04:17:03 Europe/Berlin] PHP Notice:  Undefined property: StatModel::$ in C:\xampp\htdocs\project mvc\public\Stats.php on line 23
+[21-May-2020 04:17:19 Europe/Berlin] PHP Notice:  Undefined property: StatModel::$dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 23
+[21-May-2020 04:17:44 Europe/Berlin] PHP Notice:  Trying to get property 'dataPoints' of non-object in C:\xampp\htdocs\project mvc\public\Stats.php on line 23
+[21-May-2020 04:18:04 Europe/Berlin] PHP Warning:  Use of undefined constant dataPoints - assumed 'dataPoints' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\project mvc\public\Stats.php on line 23
+[21-May-2020 04:18:17 Europe/Berlin] PHP Notice:  Undefined property: StatModel::$dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 23
+[21-May-2020 04:18:25 Europe/Berlin] PHP Notice:  Undefined property: StatModel::$dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 23
+[21-May-2020 04:19:16 Europe/Berlin] PHP Notice:  Undefined property: StatModel::$dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:19:24 Europe/Berlin] PHP Notice:  Undefined property: StatModel::$dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:19:37 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:23:41 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:24:14 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:24:14 Europe/Berlin] PHP Recoverable fatal error:  Object of class StatView could not be converted to string in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:25:03 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:25:03 Europe/Berlin] PHP Notice:  Undefined property: StatView::$ in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:27:08 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:27:08 Europe/Berlin] PHP Notice:  Undefined property: StatView::$ in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:27:15 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:27:15 Europe/Berlin] PHP Notice:  Undefined property: StatView::$ in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:27:22 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:27:22 Europe/Berlin] PHP Notice:  Undefined property: StatView::$ in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:27:27 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:27:27 Europe/Berlin] PHP Notice:  Undefined property: StatView::$ in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:27:55 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:27:55 Europe/Berlin] PHP Notice:  Undefined property: StatView::$ in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:28:12 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:28:12 Europe/Berlin] PHP Notice:  Undefined property: StatView::$ in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:28:19 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:28:19 Europe/Berlin] PHP Notice:  Undefined property: StatView::$ in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:29:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function var_dumb() in C:\xampp\htdocs\project mvc\app\model\StatModel.php:80
+Stack trace:
+#0 C:\xampp\htdocs\project mvc\app\controller\StatController.php(19): StatModel->Stat_View()
+#1 C:\xampp\htdocs\project mvc\app\view\StatView.php(20): StatController->insert()
+#2 C:\xampp\htdocs\project mvc\public\Stats.php(24): StatView->output()
+#3 {main}
+  thrown in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 80
+[21-May-2020 04:29:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function var_dumb() in C:\xampp\htdocs\project mvc\app\model\StatModel.php:80
+Stack trace:
+#0 C:\xampp\htdocs\project mvc\app\controller\StatController.php(19): StatModel->Stat_View()
+#1 C:\xampp\htdocs\project mvc\app\view\StatView.php(20): StatController->insert()
+#2 C:\xampp\htdocs\project mvc\public\Stats.php(24): StatView->output()
+#3 {main}
+  thrown in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 80
+[21-May-2020 04:29:37 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:29:37 Europe/Berlin] PHP Notice:  Undefined property: StatView::$ in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:30:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function var_dumb() in C:\xampp\htdocs\project mvc\app\model\StatModel.php:81
+Stack trace:
+#0 C:\xampp\htdocs\project mvc\app\controller\StatController.php(19): StatModel->Stat_View()
+#1 C:\xampp\htdocs\project mvc\app\view\StatView.php(20): StatController->insert()
+#2 C:\xampp\htdocs\project mvc\public\Stats.php(24): StatView->output()
+#3 {main}
+  thrown in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 81
+[21-May-2020 04:30:46 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:30:46 Europe/Berlin] PHP Notice:  Undefined property: StatView::$ in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:33:05 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:33:05 Europe/Berlin] PHP Notice:  Undefined property: StatView::$ in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:33:05 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:33:05 Europe/Berlin] PHP Notice:  Undefined property: StatView::$ in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:33:19 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:33:19 Europe/Berlin] PHP Notice:  Undefined property: StatView::$ in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:33:38 Europe/Berlin] PHP Notice:  Undefined property: StatView::$ in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:37:07 Europe/Berlin] PHP Notice:  Undefined property: StatModel::$Stat_View in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:37:36 Europe/Berlin] PHP Notice:  Undefined property: StatModel::$Stat_View in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:37:36 Europe/Berlin] PHP Notice:  Trying to get property 'dataPoints' of non-object in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:37:44 Europe/Berlin] PHP Notice:  Undefined property: StatModel::$Stat_View in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:37:44 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:37:44 Europe/Berlin] PHP Notice:  Trying to get property '' of non-object in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:37:45 Europe/Berlin] PHP Notice:  Undefined property: StatModel::$Stat_View in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:37:45 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:37:45 Europe/Berlin] PHP Notice:  Trying to get property '' of non-object in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:37:45 Europe/Berlin] PHP Notice:  Undefined property: StatModel::$Stat_View in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:37:45 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:37:45 Europe/Berlin] PHP Notice:  Trying to get property '' of non-object in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:37:46 Europe/Berlin] PHP Notice:  Undefined property: StatModel::$Stat_View in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:37:46 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:37:46 Europe/Berlin] PHP Notice:  Trying to get property '' of non-object in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:37:49 Europe/Berlin] PHP Notice:  Undefined property: StatModel::$Stat_View in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:37:49 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:37:49 Europe/Berlin] PHP Notice:  Trying to get property '' of non-object in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:37:50 Europe/Berlin] PHP Notice:  Undefined property: StatModel::$Stat_View in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:37:50 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:37:50 Europe/Berlin] PHP Notice:  Trying to get property '' of non-object in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:40:22 Europe/Berlin] PHP Notice:  Undefined variable: Npcount in C:\xampp\htdocs\project mvc\public\Stats.php on line 24
+[21-May-2020 04:40:22 Europe/Berlin] PHP Notice:  Undefined variable: Spcount in C:\xampp\htdocs\project mvc\public\Stats.php on line 25
+[21-May-2020 04:40:22 Europe/Berlin] PHP Notice:  Undefined variable: Ccount in C:\xampp\htdocs\project mvc\public\Stats.php on line 26
+[21-May-2020 04:40:22 Europe/Berlin] PHP Notice:  Undefined variable: Dcount in C:\xampp\htdocs\project mvc\public\Stats.php on line 27
+[21-May-2020 04:40:22 Europe/Berlin] PHP Notice:  Undefined variable: Npcount in C:\xampp\htdocs\project mvc\public\Stats.php on line 24
+[21-May-2020 04:40:22 Europe/Berlin] PHP Notice:  Undefined variable: Spcount in C:\xampp\htdocs\project mvc\public\Stats.php on line 25
+[21-May-2020 04:40:22 Europe/Berlin] PHP Notice:  Undefined variable: Ccount in C:\xampp\htdocs\project mvc\public\Stats.php on line 26
+[21-May-2020 04:40:22 Europe/Berlin] PHP Notice:  Undefined variable: Dcount in C:\xampp\htdocs\project mvc\public\Stats.php on line 27
+[21-May-2020 04:40:31 Europe/Berlin] PHP Notice:  Undefined variable: Npcount in C:\xampp\htdocs\project mvc\public\Stats.php on line 24
+[21-May-2020 04:40:31 Europe/Berlin] PHP Notice:  Undefined variable: Spcount in C:\xampp\htdocs\project mvc\public\Stats.php on line 25
+[21-May-2020 04:40:31 Europe/Berlin] PHP Notice:  Undefined variable: Ccount in C:\xampp\htdocs\project mvc\public\Stats.php on line 26
+[21-May-2020 04:40:32 Europe/Berlin] PHP Notice:  Undefined variable: Dcount in C:\xampp\htdocs\project mvc\public\Stats.php on line 27
+[21-May-2020 04:41:03 Europe/Berlin] PHP Notice:  Undefined variable: Npcount in C:\xampp\htdocs\project mvc\public\Stats.php on line 24
+[21-May-2020 04:41:03 Europe/Berlin] PHP Notice:  Undefined property: StatModel::$ in C:\xampp\htdocs\project mvc\public\Stats.php on line 24
+[21-May-2020 04:41:03 Europe/Berlin] PHP Notice:  Undefined variable: Spcount in C:\xampp\htdocs\project mvc\public\Stats.php on line 25
+[21-May-2020 04:41:03 Europe/Berlin] PHP Notice:  Undefined variable: Ccount in C:\xampp\htdocs\project mvc\public\Stats.php on line 26
+[21-May-2020 04:41:03 Europe/Berlin] PHP Notice:  Undefined variable: Dcount in C:\xampp\htdocs\project mvc\public\Stats.php on line 27
+[21-May-2020 04:41:25 Europe/Berlin] PHP Notice:  Undefined property: StatModel::$Stat_View in C:\xampp\htdocs\project mvc\public\Stats.php on line 24
+[21-May-2020 04:41:25 Europe/Berlin] PHP Notice:  Undefined variable: Npcount in C:\xampp\htdocs\project mvc\public\Stats.php on line 24
+[21-May-2020 04:41:25 Europe/Berlin] PHP Notice:  Trying to get property '' of non-object in C:\xampp\htdocs\project mvc\public\Stats.php on line 24
+[21-May-2020 04:41:25 Europe/Berlin] PHP Notice:  Undefined variable: Spcount in C:\xampp\htdocs\project mvc\public\Stats.php on line 25
+[21-May-2020 04:41:25 Europe/Berlin] PHP Notice:  Undefined variable: Ccount in C:\xampp\htdocs\project mvc\public\Stats.php on line 26
+[21-May-2020 04:41:25 Europe/Berlin] PHP Notice:  Undefined variable: Dcount in C:\xampp\htdocs\project mvc\public\Stats.php on line 27
+[21-May-2020 04:41:41 Europe/Berlin] PHP Notice:  Undefined property: StatView::$Stat_View in C:\xampp\htdocs\project mvc\public\Stats.php on line 24
+[21-May-2020 04:41:41 Europe/Berlin] PHP Notice:  Undefined variable: Npcount in C:\xampp\htdocs\project mvc\public\Stats.php on line 24
+[21-May-2020 04:41:41 Europe/Berlin] PHP Notice:  Trying to get property '' of non-object in C:\xampp\htdocs\project mvc\public\Stats.php on line 24
+[21-May-2020 04:41:41 Europe/Berlin] PHP Notice:  Undefined variable: Spcount in C:\xampp\htdocs\project mvc\public\Stats.php on line 25
+[21-May-2020 04:41:41 Europe/Berlin] PHP Notice:  Undefined variable: Ccount in C:\xampp\htdocs\project mvc\public\Stats.php on line 26
+[21-May-2020 04:41:41 Europe/Berlin] PHP Notice:  Undefined variable: Dcount in C:\xampp\htdocs\project mvc\public\Stats.php on line 27
+[21-May-2020 04:41:48 Europe/Berlin] PHP Notice:  Undefined variable: Npcount in C:\xampp\htdocs\project mvc\public\Stats.php on line 24
+[21-May-2020 04:41:48 Europe/Berlin] PHP Notice:  Undefined property: StatView::$ in C:\xampp\htdocs\project mvc\public\Stats.php on line 24
+[21-May-2020 04:41:48 Europe/Berlin] PHP Notice:  Undefined variable: Spcount in C:\xampp\htdocs\project mvc\public\Stats.php on line 25
+[21-May-2020 04:41:48 Europe/Berlin] PHP Notice:  Undefined variable: Ccount in C:\xampp\htdocs\project mvc\public\Stats.php on line 26
+[21-May-2020 04:41:48 Europe/Berlin] PHP Notice:  Undefined variable: Dcount in C:\xampp\htdocs\project mvc\public\Stats.php on line 27
+[21-May-2020 04:44:04 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 75
+[21-May-2020 04:46:51 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 75
+[21-May-2020 04:47:04 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 75
+[21-May-2020 04:48:24 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 75
+[21-May-2020 04:48:24 Europe/Berlin] PHP Warning:  Use of undefined constant JsonSerializable - assumed 'JsonSerializable' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\project mvc\public\Stats.php on line 75
+[21-May-2020 04:48:24 Europe/Berlin] PHP Warning:  json_encode() expects parameter 2 to be int, string given in C:\xampp\htdocs\project mvc\public\Stats.php on line 75
+[21-May-2020 04:48:29 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 75
+[21-May-2020 04:48:38 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 75
+[21-May-2020 04:48:52 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 75
+[21-May-2020 04:50:18 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 75
+[21-May-2020 04:50:48 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 75
+[21-May-2020 04:50:51 Europe/Berlin] PHP Warning:  Use of undefined constant dataPoints - assumed 'dataPoints' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\project mvc\public\Stats.php on line 75
+[21-May-2020 04:50:55 Europe/Berlin] PHP Warning:  Use of undefined constant dataPoints - assumed 'dataPoints' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\project mvc\public\Stats.php on line 75
+[21-May-2020 04:51:00 Europe/Berlin] PHP Warning:  Use of undefined constant dataPoints - assumed 'dataPoints' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\project mvc\public\Stats.php on line 75
+[21-May-2020 04:51:03 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 75
+[21-May-2020 04:51:24 Europe/Berlin] PHP Notice:  Undefined property: StatModel::$Stat_View in C:\xampp\htdocs\project mvc\public\Stats.php on line 23
+[21-May-2020 04:51:24 Europe/Berlin] PHP Warning:  Use of undefined constant dataPoints - assumed 'dataPoints' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\project mvc\public\Stats.php on line 23
+[21-May-2020 04:51:24 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 75
+[21-May-2020 04:51:37 Europe/Berlin] PHP Notice:  Undefined property: StatModel::$Stat_View in C:\xampp\htdocs\project mvc\public\Stats.php on line 23
+[21-May-2020 04:51:37 Europe/Berlin] PHP Warning:  Use of undefined constant dataPoints - assumed 'dataPoints' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\project mvc\public\Stats.php on line 23
+[21-May-2020 04:51:53 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:54:07 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 04:54:07 Europe/Berlin] PHP Notice:  Undefined variable: dataPoints in C:\xampp\htdocs\project mvc\public\Stats.php on line 74
+[21-May-2020 05:06:00 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\project mvc\app\model\StatModel.php on line 78
