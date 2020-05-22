@@ -23,7 +23,7 @@
 				<link rel="stylesheet" href="css/style.css">
 </head>
 <?php
-
+/*
 ini_set('display_errors',0);
 ini_set('track_errors',1);
 ini_set('display_startup_errors',1);
@@ -31,7 +31,7 @@ ini_set('log_errors',1);
 ini_set('error_log',dirname(__FILE__).'/log.txt');
 error_reporting(-1);
 error_reporting(E_ALL | E_STRICT);
-
+*/
 ?>
 
 <?php
@@ -47,45 +47,67 @@ if (isset($_GET['action']) && !empty($_GET['action'])) {
 }
 
 
+		
+	if(isset($_POST['submit']))
+			{	//var_dump ("heelo");
 
 
-			$Sql1="SELECT * FROM users WHERE ID='".$_POST['ID']."' AND(TypeID='1' OR TypeID= '3')" ;
-			$result1=mysqli_query($conn,$Sql1);
 
-				if($result1)
-				{
-					$row=mysqli_fetch_array($result1);
-					$oldID=$row['id'];
-					$oldstatus=$row['status'];
-					$oldFirstName=$row['FirstName'];
-					$oldLastName=$row['LastName'];
-					$oldEmail=$row['Email'];
-						$oldPassword=$row['Password'];
-							$oldPhoneno=$row['Phoneno'];
-								$oldDOB=$row['DOB'];
-									$oldgender=$row['gender'];
-									$oldTypeID=$row['TypeID'];
+				
+                $sql2="UPDATE users SET status='".$_POST['Status']."' ,FirstName='".$_POST['FirstName']."',LastName='".$_POST['LastName']."',Email='".$_POST['Email']."',Password='".$_POST['Password']."',
+			Phoneno='".$_POST['Phoneno']."',DOB='".$_POST['DOB']."',gender='".$_POST['gender']."' WHERE ID='".$_POST['ID']."'";
 
-				}
+			$mysqli= NEW MySQLi ('localhost','root','','clinic3');
+         $resultSet = $mysqli->query("select Email from users where Email='".$_POST['Email']."'");
+           
+            if (mysqli_num_rows($resultSet) > 0) {
+            // output data of each row
+            $row = mysqli_fetch_assoc($resultSet);
+            if($_POST['Email']==$row['Email'])
+            {
+                echo"Email Already exist";
+			  //  return FALSE;
+              return FALSE;
+            }
+        }else { //here you need to add else condition
+            
+			$result2=mysqli_query($conn,$sql2);
 
-			if(isset($_POST['Save1']))
+			if($result2)
 			{
+				header("Location:EditDoctor.php");
+			}
+                  
+            echo '<script src="jquery-3.4.1.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+            <script type="text/javascript">
+            
+               
                 
+                    
+                
+               Swal.fire({
+                 position: "top-end",
+                 icon: "success",
+                 title: "Your work has been saved",
+                 showConfirmButton: false,
+                 timer: 1500
+        }) 
+                
+                
+            });
+            
+            </script>'
+        ;                   
+                    return TRUE;
+                    
+        }
 
 	}
-// }
 
 ?>
 
 
-<script>
-$(document).ready(function (){
-	$("#Edit").on('click',function(){
-		$("#form1").toggle();
-	});
-});
-
-</script>
 
 
 
@@ -105,12 +127,12 @@ height: 100px;
 
 <body>
 
-<?php include ("Admin.php");?>
+<?php include_once ("Admin.php");?>
 <br>
 
 	 <?php
 	 include ("connection.php");
-	 include ("DBHelper.php");
+	 include_once ("DBHelper.php");
 
 	 $sql="SELECT * FROM users WHERE (TypeID='1' OR TypeID= '3')";
 	 	$result = mysqli_query($conn,$sql);
@@ -138,10 +160,10 @@ height: 100px;
 	 ?>
 
 
-<button class="btn btn-default" id = "Edit" style = "color: white;background-color: #212121 ; font-size: 20px; width:15%; margin:0.2%;" >Edit</button>
 
 
-<form id="form1" action = "EditDoctor.php?action=updateuser" style = "display:none; margin:0.5%;" method="post">
+
+<form action = "EditDoctorView.php" method="post" >
 
 	<hr>
 	<h3>Please Edit A Doctor</h3>
@@ -157,42 +179,41 @@ height: 100px;
 <form action="" id="status" Name="Status">
   <input type="radio" name="gender" value="Approved"> Approved<br>
   <input type="radio" name="gender" value="pending"> Pending<br>
-</form>
 <br>
 </div>
 <b id="label">First Name</b>
 <br>
 <div class="form-group">
-<input  type="text" id="FirstName" Name="FirstName" style="width:70%;" class="form-control" required>
+<input  type="text" id="FirstName" Name="FirstName" style="width:70%;" class="form-control" pattern="[A-Za-z]{2,}"placeholder="Enter Your First Name" title="can`t contain numbers" required  autofocus>
 <br>
 </div>
 <b id="label">Last Name	</b>
 <br>
 <div class="form-group">
-<input  type="text" id="LastName" Name="LastName" style="width:70%;" class="form-control" required>
+<input  type="text" id="LastName" Name="LastName" style="width:70%;" class="form-control" pattern="[A-Za-z]{2,}"placeholder="Enter Your last Name" title="can`t contain numbers" required autofocus>
 <br>
 </div>
 <b id="label">Email</b>
 <br>
 <div class="form-group">
-<input  type="text" id="Email" Name="Email" style="width:70%;" class="form-control" required>
+<input  type="text" id="Email" Name="Email" style="width:70%;" class="form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$" placeholder="name@example.com" required autofocus>
 <br>
 </div><b id="label">Password</b>
 <br>
 <div class="form-group">
-<input  type="text" id="Password" Name="Password" style="width:70%;" class="form-control" required>
+<input  type="password" id="Password" Name="Password" style="width:70%;" class="form-control" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required  autofocus>
 <br>
 
 </div><b id="label">Phone Number</b>
 <br>
 <div class="form-group">
-<input  type="text" id="Phoneno" Name="Phoneno" style="width:70%;" class="form-control" required>
+<input  type="text" id="Phoneno" Name="Phoneno" style="width:70%;" class="form-control" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" required>
 <br>
 </div>
 <b id="label">DOB</b>
 <br>
 <div class="form-group">
-<input  type="date" id="DOB" Name="DOB" style="width:70%;" class="form-control"  value="2020-05-19"min="1950-01-01" max="2020-05-19" required>
+<input  type="date" id="DOB" Name="DOB" style="width:70%;" class="form-control"  value="2020-05-19"min="1950-01-01" max="<?php echo date('Y-m-d');?>" required>
 <br>
 </div>
 <b id="label">Gender</b>
@@ -202,10 +223,9 @@ height: 100px;
   <input type="radio" name="gender" value="female"> Female<br>
 </form>
 <br>
-</div>
 
-<input class="btn btn-default" type="Submit" style = "color: white;background-color: #212121 ; font-size: 20px; width:15%; margin:0.2%;" Value="Save" id="Save1" Name="Save1">
-<input class="btn btn-default" type="reset" style = "color: white;background-color: #212121 ; font-size: 20px; width:15%; margin:0.2%;" Value="Reset" id="reset" Name="Reset">
+<button type="submit" name="submit" id="sup" class="btn btn-primary">submit</button>
+
     
 </form>
 
@@ -273,4 +293,5 @@ height: 100px;
 <script src="js/main.js"></script>
 
 </body>
+
 </html>

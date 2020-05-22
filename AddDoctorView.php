@@ -96,20 +96,21 @@ if (isset($_GET['action']) && !empty($_GET['action'])) {
     <label for="exampleFormControlInput1">Phone number</label>
     <input type="text" name="phone" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your phone" title="can`t contain numbers" required>
   </div>
-         <div class="form-group">
-                    <label for="birthDate" class="col-sm-3 control-label">Date of Birth</label>
-                    <div class="col-sm-9">
-                        <input type="date" name="date" id="birthDate" class="form-control" required>
-                    </div>
-                </div>
+       
   <div class="form-group">
-    <label for="exampleFormControlSelect1">Gender</label>
-    <select class="form-control" name="gender" id="exampleFormControlSelect1" value="2020-05-19"min="1950-01-01" max="2020-05-19" required>
+    <label for="exampleFormControlSelect1">Date of Birth</label>
+    <select class="form-control" name="gender" id="exampleFormControlSelect1" value="2020-05-19"min="1950-01-01" max=<?php echo date('Y-m-d');?> required>
       <option>male</option>
       <option>female</option>
       
     </select>
       
+  </div>
+  <div class="form-group">
+                    <label for="birthDate" class="col-sm-3 control-label"> Gender</label>
+                    <div class="col-sm-9">
+                        <input type="date" name="date" id="birthDate" class="form-control" required>
+                    </div>
   </div>
         <button type="submit" name="submit" id="sup" class="btn btn-primary">Sign UP</button>
     </form>
