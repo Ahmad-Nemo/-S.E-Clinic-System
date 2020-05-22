@@ -40,20 +40,7 @@
         <link rel="stylesheet" href="css/style.css">
       </head>
 
-<?php include ("Admin.php");
-
-include_once ("AddDoctorModel.php");
-include_once("AddDoctorController.php");
-$model=new AddDoctorModel();
-$controller=new AddDoctorController($model);
-
-
-if (isset($_GET['action']) && !empty($_GET['action'])) {
- $controller->{$_GET['action']}();
-}
-
-
-?>
+<?php include ("Admin.php");?>
 
 
 
@@ -68,43 +55,96 @@ if (isset($_GET['action']) && !empty($_GET['action'])) {
    
     
     ?>
-
+    <?php
+      
+    if (isset($_POST["submit"]))
+    {
+        $firstname = $_POST["fname"];
+        
+        $lastname = $_POST["lname"];
+        
+        $email = $_POST["mail"];
+        
+        $password = $_POST["password"];
+        
+        $phoneno = $_POST["phone"];
+        
+        $DOB = $_POST["date"];
+        
+        $gender=$_POST["gender"];
+        
+        
+        
+        $sql="INSERT INTO users(FirstName,LastName,Email,Password,Phoneno,DOB,gender,TypeID,status) VALUES ('$firstname','$lastname','$email','$password','$phoneno','$DOB','$gender',1,'aproved')";
+        $result=mysqli_query($conn,$sql);
+         
+            if($result)	
+		    
+                 
+      echo '<script src="jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script type="text/javascript">
+    
+       
+        
+            
+        
+       Swal.fire({
+         position: "top-end",
+         icon: "success",
+         title: "Your work has been saved",
+         showConfirmButton: false,
+         timer: 1500
+}) 
+        
+        
+    });
+    
+    </script>'
+;
+            else
+            
+                echo "no";
+            
+    }
+    
+    ?>
     <div class="container">
      <h2 >Add a doctor</h2>
-    <form action="AddDoctorView.php?action=insertuser" method="post">
+    <form action="AddDoctor.php" method="post">
   <div class="form-group">
     <label for="exampleFormControlInput1">First name </label>
-    <input type="text" name="fname" class="form-control" id="exampleFormControlInput1" pattern="[A-Za-z]{2,}"placeholder="Enter Your First Name" title="can`t contain numbers" required> 
+    <input type="text" name="fname" class="form-control" id="exampleFormControlInput1">
   </div>
         <div class="form-group">
     <label for="exampleFormControlInput1">Last name</label>
-    <input type="text" name="lname" class="form-control" id="exampleFormControlInput1" pattern="[A-Za-z]{2,}"placeholder="Enter Your First Name" title="can`t contain numbers" required>
+    <input type="text" name="lname" class="form-control" id="exampleFormControlInput1" >
   </div>
         <div class="form-group">
     <label for="exampleFormControlInput1">Email address</label>
-    <input type="email" name="mail" class="form-control" id="exampleFormControlInput1" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$" placeholder="name@example.com" required>
+    <input type="email" name="mail" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
   </div>
         <div class="form-group">
     <label for="exampleFormControlInput1">Password</label>
-    <input type="password" name="password" id="psw" class="form-control"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required >
+    <input type="password" name="password" id="psw" class="form-control"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" id="exampleFormControlInput1" >
   </div>
         <div class="form-group">
     <label for="exampleFormControlInput1">confirm password</label>
-    <input type="password" name="password" id="psw2" class="form-control"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required >
+    <input type="password" name="password" id="psw2" class="form-control"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" >
   </div>
         <div class="form-group">
     <label for="exampleFormControlInput1">Phone number</label>
-    <input type="text" name="phone" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your phone" title="can`t contain numbers" required>
+    <input type="text" name="phone" class="form-control" id="exampleFormControlInput1" >
   </div>
          <div class="form-group">
                     <label for="birthDate" class="col-sm-3 control-label">Date of Birth</label>
                     <div class="col-sm-9">
-                        <input type="date" name="date" id="birthDate" class="form-control" required>
+                        <input type="date" name="date" id="birthDate" class="form-control">
                     </div>
                 </div>
   <div class="form-group">
     <label for="exampleFormControlSelect1">Gender</label>
-    <select class="form-control" name="gender" id="exampleFormControlSelect1" value="2020-05-19"min="1950-01-01" max="2020-05-19" required>
+    <select class="form-control" name="gender" id="exampleFormControlSelect1">
       <option>male</option>
       <option>female</option>
       
@@ -117,22 +157,10 @@ if (isset($_GET['action']) && !empty($_GET['action'])) {
     </div>
     <script>
 var myInput = document.getElementById("psw");
-var myInput2 = document.getElementById("psw2");
 var letter = document.getElementById("letter");
 var capital = document.getElementById("capital");
 var number = document.getElementById("number");
 var length = document.getElementById("length");
-
-function validatePassword(){
-  if(myInput.value != myInput2.value) {
-    myInput2.setCustomValidity("Passwords Don't Match");
-  } else {
-    myInput2.setCustomValidity('');
-  }
-}
-
-myInput.onchange = validatePassword;
-myInput2.onkeyup = validatePassword;
 
 // When the user clicks on the password field, show the message box
 myInput.onfocus = function() {

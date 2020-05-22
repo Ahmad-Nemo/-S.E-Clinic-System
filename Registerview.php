@@ -14,7 +14,7 @@
     </head>
 <body>
     <?php
-    
+   /* 
     ini_set('display_errors',1);
 ini_set('track_errors',1);
 ini_set('display_startup_errors',1);
@@ -22,44 +22,44 @@ ini_set('log_errors',1);
 ini_set('error_log',dirname(__FILE__).'/log.txt');
 error_reporting(-1);
 error_reporting(E_ALL | E_STRICT);
-    
+     */ 
     include "header.php";
     include_once("connection.php");
-   
+ 
     
     ?>
      <div class="container">
      <h2 >Sign Up</h2>
-    <form action="LoginController.php" method="post">
+    <form action="LoginController.php" id="form1" method="post">
   <div class="form-group">
     <label for="exampleFormControlInput1">First name </label>
-    <input type="text" name="fname" class="form-control" id="exampleFormControlInput1" required>
+    <input type="text" name="fname" class="form-control" id="exampleFormControlInput1" pattern="[A-Za-z]{2,}"placeholder="Enter Your First Name" title="can`t contain numbers" required  autofocus>
   </div>
         <div class="form-group">
     <label for="exampleFormControlInput1">Last name</label>
-    <input type="text" name="lname" class="form-control" id="exampleFormControlInput1" required>
+    <input type="text" name="lname" class="form-control" id="exampleFormControlInput1" pattern="[A-Za-z]{2,}"placeholder="Enter Your last Name" title="can`t contain numbers" required autofocus>
   </div>
         <div class="form-group">
     <label for="exampleFormControlInput1">Email address</label>
-    <input type="email" name="mail" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+    <input type="email" name="mail" class="form-control" id="exampleFormControlInput1" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$" placeholder="name@example.com" required autofocus>
   </div>
         <div class="form-group">
     <label for="exampleFormControlInput1">Password</label>
-    <input type="password" name="password" id="psw" class="form-control"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" id="exampleFormControlInput1" required >
+    <input type="password" name="password" id="psw" class="form-control"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" id="exampleFormControlInput1" required  autofocus>
   </div>
         <div class="form-group">
     <label for="exampleFormControlInput1">confirm password</label>
-    <input type="password" name="password" id="psw2" class="form-control"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" id="exampleFormControlInput1" required >
+    <input type="password" name="password" id="psw2" class="form-control"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" id="exampleFormControlInput1" required  autofocus>
   </div>
         
         <div class="form-group">
     <label for="exampleFormControlInput1">Phone number</label>
-    <input type="text" name="phone" class="form-control" id="exampleFormControlInput1" required >
+    <input type="text" name="phone" class="form-control"  oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" id="exampleFormControlInput1" required  autofocus>
   </div>
          <div class="form-group">
                     <label for="birthDate" class="col-sm-3 control-label">Date of Birth</label>
                     <div class="col-sm-9">
-                        <input type="date" name="date" id="birthDate" class="form-control" value="2020-05-19"min="1950-01-01" max="2020-05-19" required>
+                        <input type="date" name="date" id="birthDate" class="form-control" value="2020-05-19"min="1950-01-01" max="2020-05-19" required autofocus>
                     </div>
                 </div>
   <div class="form-group">
@@ -71,13 +71,19 @@ error_reporting(E_ALL | E_STRICT);
     </select>
       
   </div>
+        
         <button type="submit" name="register" id="sup" class="btn btn-primary">Sign UP</button>
+
+        <br><br>
+
+        <button class="btn btn-primary" onclick="document.getElementById('form1').value = ''">Clear input </button>
     </form>
     
     </div>
     <script>
 var myInput = document.getElementById("psw");
 var myInput2 = document.getElementById("psw2");
+var myInput2 = document.getElementById("email");
 var letter = document.getElementById("letter");
 var capital = document.getElementById("capital");
 var number = document.getElementById("number");
@@ -91,9 +97,10 @@ function validatePassword(){
   }
 }
 
-myInput.onchange = validatePassword;
-myInput2.onkeyup = validatePassword;
+myInput.onchange = validatePassword();
+myInput2.onkeyup = validatePassword();
 // When the user clicks on the password field, show the message box
+
 myInput.onfocus = function() {
   document.getElementById("message").style.display = "block";
 }
