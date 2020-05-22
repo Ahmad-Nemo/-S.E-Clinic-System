@@ -56,7 +56,7 @@
   <div class="card-body">
     <h5 class="card-title">Delete Doctor</h5>
     <p class="card-text">Delete any Doctor you want </p>
-    <a href="DeleteDoctor.php" class="btn btn-primary">Delete</a>
+    <a href="DeleteDoctorView.php" class="btn btn-primary">Delete</a>
   </div>
 </div>
   </div>
@@ -67,7 +67,7 @@
   <div class="card-body">
     <h5 class="card-title">Update doctor</h5>
     <p class="card-text">you can update doctor info here</p>
-    <a href="EditDoctor.php" class="btn btn-primary">Update</a>
+    <a href="EditDoctorView.php" class="btn btn-primary">Update</a>
   </div>
 </div>
   </div>
