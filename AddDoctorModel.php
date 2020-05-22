@@ -15,33 +15,24 @@ class AddDoctorModel extends Model {
        
          $db=new DBHelper(); 
          $password1=sha1($password);
-         $sql="INSERT INTO users(FirstName,LastName,Email,Password,Phoneno,DOB,gender,TypeID,status) VALUES ('$firstname','$lastname','$email','$password1','$phoneno','$DOB','$gender',1,'aproved')";
-        $result=$db->connect()->query($sql);
+         $sql="INSERT INTO users(FirstName,LastName,Email,Password,Phoneno,DOB,gender,TypeID,status) VALUES ('$firstname','$lastname','$email','$password1','$phoneno','$DOB','$gender',1,'Approved')";
         
-       /* if($result)	
-		    
-                 
-      return '<script src="jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
-    <script type="text/javascript">
-    
-       
-        
+         $mysqli= NEW MySQLi ('localhost','root','','clinic3');
+         $resultSet = $mysqli->query("select Email from users where  Email='$email'");
+         if (mysqli_num_rows($resultSet) > 0) {
+            // output data of each row
+            $row = mysqli_fetch_assoc($resultSet);
+            if($email==$row['Email'])
+            {
+                echo"Email Already exist";
+              //  return FALSE;
+              return FALSE;
+            }
+        }else { //here you need to add else condition
             
-        
-       Swal.fire({
-         position: "top-end",
-         icon: "success",
-         title: "Your work has been saved",
-         showConfirmButton: false,
-         timer: 1500
-}) 
-        
-        
-    });
-    
-    </script>'
-;*/
+
+         $result=$db->connect()->query($sql);
+        }
        }
  
 

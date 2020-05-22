@@ -6,12 +6,6 @@ require_once("Controller.php");
 
 class AddDoctorController extends Controller
 {
-   
-
-  
-
-   
-
 
    function insertuser()
    {

@@ -46,35 +46,24 @@ include_once ("AddDoctorModel.php");
 include_once("AddDoctorController.php");
 $model=new AddDoctorModel();
 $controller=new AddDoctorController($model);
-
-
 if (isset($_GET['action']) && !empty($_GET['action'])) {
  $controller->{$_GET['action']}();
 }
-
-
 ?>
 
-
-
-
     <body>
-        
+ 
  
       <?php
-   
     include_once("connection.php");
-    
-   
-    
     ?>
 
     <div class="container">
-     <h2 >Add a doctor</h2>
+     <h2 >Add a Doctor</h2>
     <form action="AddDoctorView.php?action=insertuser" method="post">
   <div class="form-group">
     <label for="exampleFormControlInput1">First name </label>
-    <input type="text" name="fname" class="form-control" id="exampleFormControlInput1" pattern="[A-Za-z]{2,}"placeholder="Enter Your First Name" title="can`t contain numbers" required> 
+    <input type="text" name="fname" class="form-control" id="exampleFormControlInput1" pattern="[A-Za-z]{2,}" placeholder="Enter Your First Name" title="can`t contain numbers" required> 
   </div>
         <div class="form-group">
     <label for="exampleFormControlInput1">Last name</label>
@@ -98,8 +87,8 @@ if (isset($_GET['action']) && !empty($_GET['action'])) {
   </div>
        
   <div class="form-group">
-    <label for="exampleFormControlSelect1">Date of Birth</label>
-    <select class="form-control" name="gender" id="exampleFormControlSelect1" value="2020-05-19"min="1950-01-01" max=<?php echo date('Y-m-d');?> required>
+    <label for="exampleFormControlSelect1"> Gender</label>
+    <select class="form-control" name="gender" id="exampleFormControlSelect1"  required>
       <option>male</option>
       <option>female</option>
       
@@ -107,9 +96,9 @@ if (isset($_GET['action']) && !empty($_GET['action'])) {
       
   </div>
   <div class="form-group">
-                    <label for="birthDate" class="col-sm-3 control-label"> Gender</label>
+                    <label for="birthDate" class="col-sm-3 control-label"> Date of Birth</label>
                     <div class="col-sm-9">
-                        <input type="date" name="date" id="birthDate" class="form-control" required>
+                        <input type="date" name="date" id="birthDate" class="form-control" value="2020-05-19"min="1950-01-01" max=<?php echo date('Y-m-d');?> required>
                     </div>
   </div>
         <button type="submit" name="submit" id="sup" class="btn btn-primary">Sign UP</button>
