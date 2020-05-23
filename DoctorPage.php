@@ -2,9 +2,14 @@
 
   
     <head>
-        <?php if(!isset($_SESSION)){ session_start();
-        
-        }
+        <?php   
+        include_once "login.php";
+        if(!isset($_SESSION['usertype']))
+   {
+      header("Location:index.php");
+
+    }
+   
         ?>
         
         <meta charset="utf-8">

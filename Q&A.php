@@ -20,12 +20,13 @@ ini_set('error_log',dirname(__FILE__).'/log.txt');
 error_reporting(-1);
 error_reporting(E_ALL | E_STRICT);
     //include_once "Homeadmin.php";
+     include_once "login.php";
     if(!isset($_SESSION['usertype']))
     {
        header("Location:index.php");
  
      }
-    include_once "login.php";
+   
    
   
     if($_SESSION['usertype']==1)

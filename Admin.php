@@ -11,12 +11,13 @@ ini_set('error_log',dirname(__FILE__).'/log.txt');
 error_reporting(-1);
 error_reporting(E_ALL | E_STRICT);
         
-        
-        if(!isset($_SESSION))
+include_once "login.php";
+if(!isset($_SESSION['usertype']))
 {
- session_start();       
-        
-}?>
+   header("Location:index.php");
+
+ }
+?>
         <title>Dr Hisham medical center</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">

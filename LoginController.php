@@ -63,7 +63,7 @@ if(isset($_POST['Submit']))
                 else if($_SESSION["usertype"] == 2)
                 {
                     $_SESSION["secertairylogin"]=true;
-                    header("Location:viewfiles.php");
+                    header("Location:SecertairyHome.php");
                 } 
             }  
 	    }
