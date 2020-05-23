@@ -96,7 +96,7 @@ if(!isset($_SESSION['usertype']))
                   <a class="nav-link" href="SecertairyHome.php">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="ApproveReservations.php">Approve Reservations</a>
+                  <a class="nav-link" href="ApproveRegistrationView.php">Approve Reservations</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="viewfiles.php">View Files</a>
