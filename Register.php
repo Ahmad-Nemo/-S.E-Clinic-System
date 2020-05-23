@@ -1,9 +1,6 @@
 
 
 <?php
-
-
-
 class Register{
    // `ID`, `status`, `FirstName`, `LastName`, `Email`, `Password`, `Phoneno`, `DOB`, `gender`, `TypeID`
     private $FirstName;
@@ -44,25 +41,13 @@ class Register{
        $this->db= new DataBase($vars);
         
     }
+    /*
     function registeruser()
     {
         include_once "connection.php";
          $sql="INSERT INTO users(FirstName,LastName,Email,Password,Phoneno,DOB,gender,TypeID,status) VALUES ('$this->FirstName','$this->LastName','$this->Email','$this->Password','$this->phoneno','$this->DOB','$this->gender',1,'pending')";
         $result=mysqli_query($conn,$sql);
-             
-            if(isset($_POST['Apply'])){
-
-                $query="SELECT Email From User 
-                Where Email = :Email ";
-                $result = $conn->query($sql);
-                if ($result->num_rows == 0) {
-                   
-                }
-                  } else {
-                    echo "Entered Email is not correct Please enter the correct email";
-                  }
-            }
-
+         
             if($result)	
             {
                  
@@ -80,8 +65,6 @@ class Register{
          title: "Your work has been saved",
          showConfirmButton: false,
          timer: 1500
-
-         
 }) 
         
         
@@ -96,7 +79,61 @@ class Register{
             else
              return FALSE;
             
+    }*/
+    
+    function registeruser()
+    {
+        include_once "connection.php";
+        $password=sha1($this->Password);
+         $sql="INSERT INTO users(FirstName,LastName,Email,Password,Phoneno,DOB,gender,TypeID,status) VALUES ('$this->FirstName','$this->LastName','$this->Email',' $password','$this->phoneno','$this->DOB','$this->gender',1,'pending')";
+       
+         $mysqli= NEW MySQLi ('localhost','root','','clinic3');
+         $resultSet = $mysqli->query("select Email from users where  Email='$this->Email'");
+           
+            if (mysqli_num_rows($resultSet) > 0) {
+            // output data of each row
+            $row = mysqli_fetch_assoc($resultSet);
+            if($this->Email==$row['Email'])
+            {
+                echo"Email Already exist";
+              //  return FALSE;
+              return FALSE;
+            }
+        }else { //here you need to add else condition
+            
+            $result=mysqli_query($conn,$sql);
+ 
+                 
+            echo '<script src="jquery-3.4.1.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+            <script type="text/javascript">
+            
+               
+                
+                    
+                
+               Swal.fire({
+                 position: "top-end",
+                 icon: "success",
+                 title: "Your work has been saved",
+                 showConfirmButton: false,
+                 timer: 1500
+        }) 
+                
+                
+            });
+            
+            </script>'
+        ;
+                    
+                    return TRUE;
+                    
+        }
+        
+         
+           
     }
+    
     function close()
     {
         $this->db->close();
