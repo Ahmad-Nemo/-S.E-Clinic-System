@@ -56,59 +56,10 @@ if(!isset($_SESSION['usertype']))
 <body>
    
      
-    <header role="banner">
-        <div class="top-bar">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6 col-sm-6 col-5">
-                <ul class="social list-unstyled">
-                  <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                  <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                  <li><a href="#"><span class="fa fa-instagram"></span></a></li>
-                </ul>
-              </div>
-              <div class="col-md-6 col-sm-6 col-7 text-right">
-                <p class="mb-0">
-                   <label style=" color: white;"> Welcome Doctor </label>
-                    <?php if(isset($_SESSION['username']))
-{
-    echo $_SESSION['username'];
-}
-                    
-                    ?>
-                  </p>
-                  
-              </div>
-            </div>
-          </div>
-        </div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-           <a class="navbar-brand" href="index.php"><img class="logo" src="img/logo2.jpeg" ></a>
-          <div class="container">
-            
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-  
-            <div class="collapse navbar-collapse" id="navbarsExample05">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="SecertairyHome.php">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="ApproveRegistrationView.php">Approve Reservations</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="viewfiles.php">View Files</a>
-                </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="logout.php">SignOut</a>
-                  </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </header>
+ <?php 
+    include "secretairy.php";
+    
+    ?>
 
    
       <!-- END header -->

@@ -98,6 +98,9 @@ if(!isset($_SESSION['usertype']))
                 <li class="nav-item">
                   <a class="nav-link" href="ApproveRegistrationView.php">Approve Reservations</a>
                 </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="Doctor`sTableView.php">Today's Schedule</a>
+                </li>
                 <li class="nav-item">
                   <a class="nav-link" href="viewfiles.php">View Files</a>
                 </li>
