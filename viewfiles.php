@@ -31,10 +31,12 @@ error_reporting(-1);
 error_reporting(E_ALL | E_STRICT);
     
     
-    if(!isset($_SESSION))
-    {
-      session_start();
-    }
+include_once "login.php";
+if(!isset($_SESSION['usertype']))
+{
+   header("Location:index.php");
+
+ }
     if($_SESSION['usertype']==1)
     {
         include "DoctorPage.php";
@@ -42,7 +44,7 @@ error_reporting(E_ALL | E_STRICT);
     else if($_SESSION['usertype']==3)
     {
          
-        include "Admin.php";
+        include_once "Admin.php";
     }
      else if($_SESSION["usertype"] == 2)
      {
@@ -69,11 +71,11 @@ error_reporting(E_ALL | E_STRICT);
       <button type="button" class="btn btn-primary" onclick='goBack()'>ADD Appointment</button>
            <button type="button" class="btn btn-primary" onclick='goto()'>ADD Consultation</button>
          
-      <th scope="col"> <input type="text" onkeyup="search()">
+      <th scope="col"> 
          
       <script>
           function goBack() {
-            window.location.href="appointmetview.php";
+            window.location.href="appointmentview.php";
           }
           function goto()
           {
@@ -98,7 +100,7 @@ error_reporting(E_ALL | E_STRICT);
     </tr>
   </thead>
   
-<div id="Q/A">
+
 <?php
         
           
@@ -113,7 +115,6 @@ error_reporting(E_ALL | E_STRICT);
     
     if(isset($_POST["appointment"]))
     {
-        
         if(mysqli_num_rows($result1) > 0){
             $num =1;
             while($row = mysqli_fetch_assoc($result1)){
@@ -197,25 +198,14 @@ error_reporting(E_ALL | E_STRICT);
     
     
         ?>
-    </div>
+    
     </table>
     </form>
+
     <script>
 
 
-     function search(){
-        var valuex = document.getElementById("usearch").value;
-        var xmlhttp = new XMLHttpRequest();
-        xmlhttp.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-                document.getElementById("Q/A").innerHTML=this.response;
-                interaction();
-            }
-            };
-              xmlhttp.open("GET", "updatefile.php?code=" + valuex, true);
-              xmlhttp.send();
-        
-    }
+
    
    
 </script>
