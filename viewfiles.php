@@ -31,12 +31,10 @@ error_reporting(-1);
 error_reporting(E_ALL | E_STRICT);
     
     
-include_once "login.php";
-if(!isset($_SESSION['usertype']))
-{
-   header("Location:index.php");
-
- }
+    if(!isset($_SESSION))
+    {
+      session_start();
+    }
     if($_SESSION['usertype']==1)
     {
         include "DoctorPage.php";
@@ -44,7 +42,7 @@ if(!isset($_SESSION['usertype']))
     else if($_SESSION['usertype']==3)
     {
          
-        include_once "Admin.php";
+        include "Admin.php";
     }
      else if($_SESSION["usertype"] == 2)
      {
@@ -75,11 +73,11 @@ if(!isset($_SESSION['usertype']))
          
       <script>
           function goBack() {
-            window.location.href="filling.php";
+            window.location.href="appointmetview.php";
           }
           function goto()
           {
-              window.location.href="Medicalconsultation.php";
+              window.location.href="consultationview.php";
           }
           $(document).ready(function() {
    $('.mdb-select').materialSelect();
@@ -115,6 +113,7 @@ if(!isset($_SESSION['usertype']))
     
     if(isset($_POST["appointment"]))
     {
+        
         if(mysqli_num_rows($result1) > 0){
             $num =1;
             while($row = mysqli_fetch_assoc($result1)){
