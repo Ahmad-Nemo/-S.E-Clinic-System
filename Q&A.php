@@ -19,16 +19,12 @@ ini_set('log_errors',1);
 ini_set('error_log',dirname(__FILE__).'/log.txt');
 error_reporting(-1);
 error_reporting(E_ALL | E_STRICT);
-    //include_once "Homeadmin.php";
-     include_once "login.php";
-    if(!isset($_SESSION['usertype']))
-    {
-       header("Location:index.php");
- 
-     }
-   
-   
-  
+    
+    
+   if(!isset($_SESSION))
+   {
+      session_start();
+    }
     if($_SESSION['usertype']==1)
     {
          
@@ -89,7 +85,7 @@ error_reporting(E_ALL | E_STRICT);
               echo "<td>".$row["question"]."</td>";
               echo "<td>".$row["answer"]."</td>";
               $valueid = $row['qa_id'];
-              echo "<td><a href='Q&Adetails.php?setid=$valueid' name ='details'>Edit</a></td>";
+              echo "<td><a href='QAeditview.php?setid=$valueid' name ='details'>Edit</a></td>";
                 echo "<td> <a style='color:red;' href=DeleteQ&A.php?setid=$valueid>Delete</a> </td> ";
               
                 
