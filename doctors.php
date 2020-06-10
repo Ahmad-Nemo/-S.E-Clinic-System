@@ -57,15 +57,7 @@
         <div class="row justify-content-center element-animate">
           <div class="col-md-6">
 
-            <form action="#">
-              <label for="search-doctor">Search Doctors</label>
-              <div class="input-group input-group-lg">
-                <input type="text" id="search-doctor" class="form-control" placeholder="Search for..." aria-label="Search for...">
-                <span class="input-group-btn">
-                  <button class="btn btn-primary" type="button">Go!</button>
-                </span>
-              </div>
-            </form>
+           
           </div>
         </div>
       </div>
