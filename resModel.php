@@ -40,29 +40,30 @@ function getdoctor()
       }
 
 
-      function saveReservation($nam,$name2,$name3,$name4,$name5,$name6,$name7,$name8){
+    function saveReservation($nam,$name2,$name3,$name4,$name5,$name6,$name7,$name8){
         include_once "connection.php";
-         $db=new DBHelper(); 
-         $name3 = date('Y/m/d', strtotime($name3));
-         $sql="INSERT INTO reservation(`Name`,`Email`,`datapp`,`timemoh`,`PhoneNum`,`Doctor`,`mess`,`company`)VALUES('$nam','$name2','$name3','$name4','$name5','$name6','$name7','$name8')";
-         //var_dump($sql);
-		   $mysqli= NEW MySQLi ('localhost','root','','clinic3');
-         $resultSet = $mysqli->query("select Email ,timemoh from reservation where  where Email=$this->email And timemoh=$this->timemoh");
-           
-            if (mysqli_num_rows($resultSet) > 0) {
-            
-            $row = mysqli_fetch_assoc($resultSet);
-         if($this->Email==$row['Email'])
-            {
-                echo"already reserved ";
-              return FALSE;
-            }
-        }else { 
-        $db->connect()->query($sql);
+		if (validReservtion($name2, $name3, $name4)) {
+			$db=new DBHelper(); 
+			$name3 = date('Y/m/d', strtotime($name3));
+			$sql="INSERT INTO reservation(`Name`,`Email`,`datapp`,`timemoh`,`PhoneNum`,`Doctor`,`mess`,`company`)VALUES('$nam','$name2','$name3','$name4','$name5','$name6','$name7','$name8')";
+			//var_dump($sql);
+			$db->connect()->query($sql);
+		} else {
+			echo "Already Reserved";
+		}
         
-       }
+    }
  
+		function validReservtion($email, $datetime, $timemoh) {
+			$db=new DBHelper(); 
+			$result = $db->connect()->query("SELECT * FROM reservation WHERE Email = '".$email."' AND timemoh = '".$datetime."' AND datapp = '".$timemoh."'");
+			if ($result2 && mysqli_num_rows($result2) > 0) {
+				return true;
+			} else {
+				return false;
+			}
 
+		}
 
       function readDoctor(){
         $db=new DBHelper(); 
@@ -78,7 +79,7 @@ function getdoctor()
 
 
 
-
+	  }
 
 }
 
