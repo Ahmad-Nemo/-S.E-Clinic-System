@@ -1,9 +1,13 @@
 <?php
+//include_once "login.php";
+    
 
 class filemodel{
     
     
-    
+    private $ID;
+    private $Medicalid;
+    private $Companyid;
     private $firstname;
     private $age;
     private $Email;
@@ -49,7 +53,7 @@ class filemodel{
     }
    private function setdata($firstname, $lastname,$age,$Email,$phoneno,$gender,$address,$pasthist,$smoking,$noofpacks,$duration,$investigation,$pasttreat,$tempreature,$BP,$RR,$spo2,$pulse,$inspection,$palpation,$percussion,$ausculation,$medicaltreat,$diagnoses,$others,$filedestination)
     {
-       include_once "connection.php";
+       include "connection.php";
         $this->firstname=$firstname;
         $this->lastname=$lastname;
        $this->age=$age;
@@ -77,11 +81,14 @@ class filemodel{
         $this->diagnoses=$diagnoses;
         $this->others=$others;
         $this->filedestination=$filedestination;
+       $this->ID=$_SESSION["ID"];
+       $this->Medicalid=$_SESSION["Medicalid"];
+       $this->Companyid=$_SESSION["companyid"];
        
+       //ID	FirstName	LastName	age	Email	phoneno	gender	address	appointmenttype	pasthistory	smoking	investigation	pastmedicaltt	tempreature	BP	RR	SpO2	pulse	inspection	palpation	percussion	auscultation	medicalttt	diagnosis	improvement	noofcigarettes	duration	others	otherdoc	Xray	Supported	UserID	MedicalID	CompanyID
        
-       
-         $sql2="INSERT INTO `filling`(`FirstName`, `LastName`, `age`, `Email`, `phoneno`, `gender`, `address`,`pasthistory`, `smoking`, `investigation`, `pastmedicaltt`, `tempreature`, `BP`, `RR`, `SpO2`, `pulse`, `inspection`, `palpation`, `percussion`, `auscultation`, `medicalttt`, `diagnosis`,`noofcigarettes`, `duration`, `others`,`Xray`,appointmenttype) VALUES ('$this->firstname','$this->lastname',' $this->age','$this->Email',' $this->phoneno','$this->gender',' $this->address',' $this->pasthist',' $this->smoking','$this->investigation','$this->pasttreat','$this->tempreature',' $this->BP','$this->RR','$this->spo2','$this->pulse','$this->inspection','$this->palpation','$this->percussion',' $this->ausculation','$this->medicaltreat','$this->diagnoses','$this->noofpacks','$this->duration',' $this->others','$this->filedestination','Appointment')";
-            $result2=mysqli_query($conn,$sql2);
+         $sql2="INSERT INTO `filling` (`FirstName`, `LastName`, `age`, `Email`, `phoneno`, `gender`, `address`, `appointmenttype`, `pasthistory`, `smoking`, `investigation`, `pastmedicaltt`, `tempreature`, `BP`, `RR`, `SpO2`, `pulse`, `inspection`, `palpation`, `percussion`, `auscultation`, `medicalttt`, `diagnosis`,`noofcigarettes`, `duration`, `others`, `Xray`, `UserID`, `MedicalID`, `CompanyID`) VALUES('$this->firstname','$this->lastname',' $this->age','$this->Email',' $this->phoneno','$this->gender',' $this->address','Appointment','$this->pasthist',' $this->smoking','$this->investigation','$this->pasttreat','$this->tempreature','$this->BP','$this->RR','$this->spo2','$this->pulse','$this->inspection','$this->palpation','$this->percussion',' $this->ausculation','$this->medicaltreat','$this->diagnoses','$this->noofpacks','$this->duration',' $this->others','$this->filedestination','$this->ID','$this->Medicalid','$this->Companyid')";
+        $result2=mysqli_query($conn,$sql2);
      //  header ('Location:appointmentview.php');
          if($result2)
             {

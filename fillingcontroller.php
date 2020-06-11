@@ -9,6 +9,7 @@ error_reporting(E_ALL | E_STRICT);
 
 
 session_start();
+include "connection.php";
 
 
 
@@ -61,7 +62,7 @@ session_start();
                 //header ('location: appointmentview.php');
             }
             
-            
+           
                     
             $firstname=$_POST['fname'];
             $lastname=$_POST['lname'];
@@ -69,6 +70,7 @@ session_start();
             $Email=$_POST['mail'];
             $phoneno=$_POST['phoneno'];
             $gender=$_POST['gender'];
+            $company=$_POST['company'];
             $address=$_POST['address'];
             $pasthist=$_POST['pasthist'];
             $smoking=$_POST['smoking'];
@@ -88,6 +90,20 @@ session_start();
             $medicaltreat=$_POST['treatment'];
             $diagnoses=$_POST['diagnose'];
             $others=$_POST['others'];
+            
+             $sql9="SELECT ID FROM medicalttt WHERE treatname='$pasttreat'";
+            $resultset9=mysqli_query($conn,$sql9);
+            if($row=mysqli_fetch_array($resultset9))            
+        {
+              $_SESSION["Medicalid"]=$row[0];
+        }
+            
+            $sql3="SELECT ID FROM company WHERE Name ='$company'";
+            $resultset3=mysqli_query($conn,$sql3);
+            if($row1=mysqli_fetch_array($resultset3))            
+        {
+              $_SESSION["companyid"]=$row1[0];
+        }
     
     include "filemodel.php";
     $filemodel=new filemodel($firstname, $lastname,$age,$Email,$phoneno,$gender,$address,$pasthist,$smoking,$noofpacks,$duration,$investigation,$pasttreat,$tempreature,$BP,$RR,$spo2,$pulse,$inspection,$palpation,$percussion,$ausculation,$medicaltreat,$diagnoses,$others,$filedestination);
@@ -164,7 +180,7 @@ session_start();
             $phoneno=$_POST['phoneno'];
             $gender=$_POST['gender'];
             $address=$_POST['address'];
-           
+            $company=$_POST['company'];
             $tempreature=$_POST['temp'];
             $BP=$_POST['BP'];
             $RR=$_POST['RR'];
@@ -178,6 +194,21 @@ session_start();
             $diagnoses=$_POST['diagnose'];
             $others=$_POST['others'];
             $improvment=$_POST['improve'];
+                    
+                     $sql5="SELECT ID FROM medicalttt WHERE treatname='$medicaltreat'";
+            $resultset5=mysqli_query($conn,$sql5);
+            if($row5=mysqli_fetch_array($resultset5))            
+        {
+              $_SESSION["Medicalid"]=$row5[0];
+        }
+            
+            $sql4="SELECT ID FROM company WHERE Name ='$company'";
+            $resultset4=mysqli_query($conn,$sql4);
+            if($row4=mysqli_fetch_array($resultset4))            
+        {
+              $_SESSION["companyid"]=$row4[0];
+        }
+    
     
     include "consultationmodel.php";
     $consultationmodel=new consultationmodel($firstname, $lastname,$age,$Email,$phoneno,$gender,$address,$tempreature,$BP,$RR,$spo2,$pulse,$inspection,$palpation,$percussion,$ausculation,$medicaltreat,$diagnoses,$others,$filedestination,$improvment,$otherfiledestination);

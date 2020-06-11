@@ -3,7 +3,7 @@
 class consultationmodel{
     
     
-    
+    private $ID;
     private $firstname;
     private $age;
     private $Email;
@@ -26,6 +26,8 @@ class consultationmodel{
      private $filedestination;
     private $improvment;
     private $otherfiledestination;
+    private $Medicalid;
+    private $Companyid;
 
 
     
@@ -46,7 +48,7 @@ class consultationmodel{
     }
    private function setdata($firstname, $lastname,$age,$Email,$phoneno,$gender,$address,$tempreature,$BP,$RR,$spo2,$pulse,$inspection,$palpation,$percussion,$ausculation,$medicaltreat,$diagnoses,$others,$filedestination,$improvment,$otherfiledestination)
     {
-       include_once "connection.php";
+       include "connection.php";
         $this->firstname=$firstname;
         $this->lastname=$lastname;
        $this->age=$age;
@@ -71,9 +73,12 @@ class consultationmodel{
         $this->filedestination=$filedestination;
        $this->improvment=$improvment;
        $this->otherfiledestination=$otherfiledestination;
+       $this->ID=$_SESSION["ID"];
+       $this->Medicalid=$_SESSION["Medicalid"];
+       $this->Companyid=$_SESSION["companyid"];
        
        
-         $sql3="INSERT INTO `filling`(`FirstName`, `LastName`, `age`, `Email`, `phoneno`, `gender`, `address`,`tempreature`, `BP`, `RR`, `SpO2`, `pulse`, `inspection`, `palpation`, `percussion`, `auscultation`, `medicalttt`, `diagnosis`,`others`,`Xray`,appointmenttype,improvement,otherdoc) VALUES ('$this->firstname','$this->lastname',' $this->age','$this->Email','$this->phoneno','$this->gender','$this->address','$this->tempreature','$this->BP','$this->RR','$this->spo2','$this->pulse','$this->inspection','$this->palpation',' $this->percussion','$this->ausculation','$this->medicaltreat','$this->diagnoses','$this->others','$this->filedestination','Consultation',' $this->improvment','$this->otherfiledestination')";
+         $sql3="INSERT INTO `filling`(`FirstName`, `LastName`, `age`, `Email`, `phoneno`, `gender`, `address`,`tempreature`, `BP`, `RR`, `SpO2`, `pulse`, `inspection`, `palpation`, `percussion`, `auscultation`, `medicalttt`, `diagnosis`,`others`,`Xray`,appointmenttype,improvement,otherdoc,UserID,MedicalID,CompanyID) VALUES ('$this->firstname','$this->lastname',' $this->age','$this->Email','$this->phoneno','$this->gender','$this->address','$this->tempreature','$this->BP','$this->RR','$this->spo2','$this->pulse','$this->inspection','$this->palpation',' $this->percussion','$this->ausculation','$this->medicaltreat','$this->diagnoses','$this->others','$this->filedestination','Consultation',' $this->improvment','$this->otherfiledestination','$this->ID','$this->Medicalid','$this->Companyid')";
             $result3=mysqli_query($conn,$sql3);
      //  header ('Location:appointmentview.php');
          if($result3)

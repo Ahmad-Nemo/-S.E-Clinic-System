@@ -15,8 +15,21 @@
     <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
     <?php
-    session_start();
+    
     include "connection.php";
+    
+     include "login.php";
+    if(!isset($_SESSION['usertype']))
+   {
+      header ("Location:index.php");
+    }
+    
+    
+    if(!isset($_SESSION))
+   {
+      session_start();
+    }
+    
      if($_SESSION['usertype']==1)
     {
         include "DoctorPage.php";
@@ -90,6 +103,25 @@ font-variant: normal;
     </select>
       
   </div>
+                <div class="form-group">
+    <label for="exampleFormControlTextarea1">Company</label>
+            <?php
+             $sql2="SELECT Name FROM company";
+            $resultset2=mysqli_query($conn,$sql2);
+              ?>
+        <select class="form-control" name="company" id="exampleFormControlSelect1">
+       <?php
+       while($rows= mysqli_fetch_array($resultset2))
+       {
+           $treatmentname2=$rows['Name'];
+           echo "<option value='$treatmentname2'>$treatmentname2</option>";
+       }
+            
+           
+     
+      ?>
+    </select>
+        </div>
                  <div class="form-group">
     <label for="exampleFormControlTextarea1">Address</label>
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="address"></textarea>
